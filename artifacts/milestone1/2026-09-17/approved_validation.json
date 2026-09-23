@@ -1,0 +1,1210 @@
+{
+  "validator": "ALPHIN deterministic independent validator v1",
+  "candidate_file": "artifacts/milestone1/2026-09-17/approved_candidates.jsonl",
+  "candidate_sha256": "98ff96d7080955c981f07b8b94bc2f7ead16a66d1b454b8a44226606d6b5602a",
+  "source_manifest": "data/source/2026-09-14/source_manifest.jsonl",
+  "source_manifest_sha256": "7715933ac1c9b4affd19c437905546f6386024ede6f86d8c7198afc6e07589d4",
+  "page_corpus": "Source PDFs are downloaded from the official URLs by scripts/download_public_sources.py; extracted page text is not published.",
+  "page_corpus_records": 2433,
+  "source_records": 138,
+  "source_files_missing": [],
+  "source_hash_errors": [],
+  "records": 1999,
+  "unique_prompt_ids": 1999,
+  "unanswerable_records": 0,
+  "citation_source_match_true": 1999,
+  "generator_models": {
+    "muse-glimmer-30b": 1198,
+    "muse-glimmer-30b-local-endpoint-2": 801
+  },
+  "generator_endpoints": {
+    "redacted_local_endpoints": 1999
+  },
+  "answer_word_count": {
+    "min": 0,
+    "max": 155,
+    "mean": 21.28
+  },
+  "exact_duplicate_question_groups": 2,
+  "exact_duplicate_answer_groups": 68,
+  "exact_duplicate_questions": {
+    "what is the maximum number of persons receiving supported living services permitted per residence in a shared living arrangement": [
+      "2f408c030e12c2f8-p6-00290",
+      "0ed5476af85017a2-p22-00544"
+    ],
+    "what encrypted email address must hospitals use to report other provider preventable conditions to alabama medicaid": [
+      "d6c634b0598c1bb9-p6-00965",
+      "0ecaf80a07e40da0-p19-01345"
+    ]
+  },
+  "exact_duplicate_answers": {
+    "4": [
+      "1449cbd6ab6d0b77-p1-00000",
+      "87c4288fee343690-p1-00477",
+      "945ab0be1933d150-p27-01477"
+    ],
+    "page 7": [
+      "af26a2ae554b0760-p1-00015",
+      "10f6ce77049a09d8-p1-00146"
+    ],
+    "the alabama medicaid agency will recoup all medicaid payments for nursing facility services from the date of the resident s admission and continuing until the level i determination or level ii determination if applicable is received": [
+      "a9c14c6ce1c5ae27-p24-00058",
+      "b0f817c3d0ed1534-p8-01445"
+    ],
+    "3": [
+      "191d5f5048c628ae-p1-00085",
+      "0e773d7a894998ad-p1-00283",
+      "9a4b32a845c3f62b-p1-00500"
+    ],
+    "page 2": [
+      "ab4e15a919d76022-p1-00107",
+      "ac74fc6f60a70000-p1-00154",
+      "53bbb740f8383f27-p1-00212",
+      "40da7233f00682c0-p1-00252",
+      "b2a475a163c5b3e9-p1-00489",
+      "7c7968019fc160cb-p1-00571",
+      "6834e42e7f9692e7-p1-00579",
+      "61d87699f5a94b77-p1-00746"
+    ],
+    "10": [
+      "ab4e15a919d76022-p2-00108",
+      "6da21f2ddc14727a-p1-00553"
+    ],
+    "page 3": [
+      "3698ba33f2a33970-p1-00124",
+      "6041319ef53009c3-p1-00350",
+      "7837e0e54ddc565a-p1-00468",
+      "20d6140fd94cfefd-p1-00493",
+      "02dab5b9e3325afe-p1-00742"
+    ],
+    "the allegations will be deemed admitted the preparer will have waived his right of hearing and the director of provider audit will then notify the preparer of his suspension under this rule": [
+      "1320899e5de90f80-p51-00201",
+      "069412d45e523c65-p37-00610"
+    ],
+    "11": [
+      "2a55a05a4996d2e8-p1-00217",
+      "feaa273773a35cba-p13-01577"
+    ],
+    "no more than 3 persons receiving services will be permitted per residence": [
+      "2f408c030e12c2f8-p6-00290",
+      "0ed5476af85017a2-p22-00544"
+    ],
+    "day habilitation services cannot exceed five hours per day": [
+      "2f408c030e12c2f8-p7-00291",
+      "0ed5476af85017a2-p5-00530"
+    ],
+    "recipients must be 18 years of age or older": [
+      "2f408c030e12c2f8-p23-00304",
+      "0ed5476af85017a2-p20-00542"
+    ],
+    "the alabama medicaid agency": [
+      "2f408c030e12c2f8-p27-00307",
+      "0ed5476af85017a2-p27-00548"
+    ],
+    "all claims for services must be submitted within 12 months from the date of service": [
+      "2f408c030e12c2f8-p28-00308",
+      "2e87ca6c8fd0775e-p22-00451"
+    ],
+    "it must be determined that without waiver services the client is at risk of institutionalization": [
+      "2f408c030e12c2f8-p31-00311",
+      "2e87ca6c8fd0775e-p25-00453"
+    ],
+    "no later than 15 calendar days after the effective date printed on the notice of action": [
+      "2f408c030e12c2f8-p33-00312",
+      "2e87ca6c8fd0775e-p27-00455",
+      "0ed5476af85017a2-p30-00550"
+    ],
+    "2": [
+      "5d3741662572dc48-p1-00354",
+      "74a56f9a57d24eba-p1-00357",
+      "9b1de32f66ca313c-p1-00472",
+      "a401a0707afb19c6-p1-00673"
+    ],
+    "a primary diagnosis of a z code substance use autism spectrum disorder developmental intellectual disability organic mental disorder or traumatic brain injury does not meet the criteria": [
+      "88341d33d70db51c-p4-00364",
+      "02605e6a3eda52e2-p14-01044"
+    ],
+    "assessment care services plan development linking coordination of services reassessment follow up": [
+      "88341d33d70db51c-p9-00368",
+      "88341d33d70db51c-p17-00375"
+    ],
+    "assessment care services plan development linking coordination of services and reassessment follow up": [
+      "88341d33d70db51c-p10-00369",
+      "88341d33d70db51c-p12-00371"
+    ],
+    "admissions readmissions and annual redeterminations must be certified by a physician licensed to practice in alabama": [
+      "54b1da2f7a985741-p11-00464",
+      "06b0cc360e5ab183-p10-00619"
+    ],
+    "page 4": [
+      "30b0784955bb5cbf-p1-00484",
+      "685faf08de431654-p1-00505",
+      "4594aedd93098d5d-p1-00626"
+    ],
+    "revenues must be allocated to the accounting period in which they are earned and expenses must be charged to the period in which they are incurred regardless of when cash is received or disbursed": [
+      "069412d45e523c65-p5-00584",
+      "ba3d76ad0640869f-p4-00641"
+    ],
+    "the provider shall be subject to termination of its contract and subsequent reimbursement otherwise due the provider shall be reduced by 3 000 00 as though the cost report had not been received by medicaid during the first thirty 30 day period following the due date for filing such report": [
+      "069412d45e523c65-p35-00609",
+      "ba3d76ad0640869f-p33-00665"
+    ],
+    "icd 9 codes should be used for claims submitted with dates of service prior to or equal to 09 30 2015 icd 10 codes should be used for claims submitted with dates of service on after 10 01 2015": [
+      "a867bb07b817967f-p3-00752",
+      "0b35d55bccccd7f2-p17-01329",
+      "b0f817c3d0ed1534-p19-01454",
+      "a4a6a07e90d53941-p4-01968"
+    ],
+    "up to four procedure code modifiers": [
+      "ae298affc4b4f44e-p8-00759",
+      "793a05a0151b97f4-p5-01150"
+    ],
+    "the current procedural terminology and current dental terminology code descriptors and other data are copyright 2026 american medical association and 2026 american dental association": [
+      "bc39ef653aa99ff9-p6-00784",
+      "907dd9b0849245e3-p8-01315"
+    ],
+    "american medical association and american dental association": [
+      "380557228cc69f15-p7-00790",
+      "19bcfae4ffb0d3cc-p15-00814",
+      "9a8d1deb90baf6b9-p14-00922",
+      "11b4f9918f1410a0-p6-00947"
+    ],
+    "334 215 7416": [
+      "19bcfae4ffb0d3cc-p5-00806",
+      "d6e06d0bb8d31e14-p50-01524"
+    ],
+    "all such claims must be submitted electronically": [
+      "0327094f4b9eeab2-p1-00818",
+      "0327094f4b9eeab2-p11-00826"
+    ],
+    "the medicaid number submitted must begin with 5 medicaid will deny any claims received on or after january 17 2011 that are submitted with the old medicaid id number beginning with 000": [
+      "0327094f4b9eeab2-p12-00827",
+      "0327094f4b9eeab2-p35-00846"
+    ],
+    "the current procedural terminology cpt and current dental terminology cdt codes descriptors and other data are copyright 2026 american medical association and 2026 american dental association all rights reserved applicable fars dfars apply": [
+      "0327094f4b9eeab2-p14-00828",
+      "30879701f12949eb-p5-01775",
+      "30879701f12949eb-p6-01776",
+      "30879701f12949eb-p21-01788"
+    ],
+    "the current procedural terminology cpt and current dental terminology cdt codes descriptors and other data are copyright 2026 american medical association and 2026 american dental association or such other date publication of cpt and cdt all rights reserved applicable fars dfars apply": [
+      "0327094f4b9eeab2-p22-00835",
+      "0327094f4b9eeab2-p31-00842",
+      "0327094f4b9eeab2-p46-00855",
+      "0327094f4b9eeab2-p60-00866",
+      "15df654f91e45abd-p5-01058",
+      "30879701f12949eb-p3-01773",
+      "30879701f12949eb-p20-01787"
+    ],
+    "the current procedural terminology cpt code descriptors and other data are copyright 2026 american medical association and the current dental terminology cdt code descriptors and other data are copyright 2026 american dental association all rights reserved applicable fars dfars apply": [
+      "0327094f4b9eeab2-p48-00856",
+      "30879701f12949eb-p32-01797"
+    ],
+    "the amount billed shall not exceed the entity s actual acquisition cost for the drug as charged by the manufacturer at a price consistent with the veterans health care act of 1992 plus the dispensing fee established by the medicaid agency": [
+      "5ae3739b160a7cc1-p12-00884",
+      "fa89012f680f87cb-p5-01829"
+    ],
+    "a written request for a fair hearing must be received within 60 days of the date of the administrative review decision": [
+      "5ae3739b160a7cc1-p15-00887",
+      "5ae3739b160a7cc1-p18-00889"
+    ],
+    "a hard copy cms 1500 claim form must be submitted": [
+      "9a8d1deb90baf6b9-p13-00921",
+      "ca2bab0af4842221-p5-01530"
+    ],
+    "this page intentionally left blank": [
+      "a94fa385bb2dcb10-p16-00960",
+      "0cf7f74661264c1c-p6-01146",
+      "793a05a0151b97f4-p18-01161",
+      "255f6ed633c9414e-p44-01217",
+      "0aa79d024e3e52d2-p16-01387",
+      "a8213cc6fe5e5d8a-p12-01603",
+      "b677a69751635935-p2-01883"
+    ],
+    "adverseevents medicaid alabama gov": [
+      "d6c634b0598c1bb9-p6-00965",
+      "0ecaf80a07e40da0-p19-01345",
+      "45a4665ee3e5482e-p6-01562",
+      "f03ead5b68e5bcb0-p5-01617"
+    ],
+    "provider type 11 state rehabilitative services": [
+      "d1d5994afc434e12-p2-00972",
+      "793a05a0151b97f4-p2-01148"
+    ],
+    "within six 6 months of date of hire": [
+      "d1d5994afc434e12-p5-00974",
+      "d1d5994afc434e12-p64-01023"
+    ],
+    "billing unit is 15 minutes with a maximum of 6 per day and 52 per year": [
+      "d1d5994afc434e12-p12-00980",
+      "cfca1ff0910abbc4-p4-01909"
+    ],
+    "hospitals are the only excluded settings": [
+      "d1d5994afc434e12-p35-00999",
+      "d1d5994afc434e12-p46-01008"
+    ],
+    "a unit is defined as 15 minutes": [
+      "15df654f91e45abd-p13-01065",
+      "15df654f91e45abd-p23-01073",
+      "15df654f91e45abd-p24-01074",
+      "15df654f91e45abd-p26-01075",
+      "15df654f91e45abd-p34-01082"
+    ],
+    "5 000 per year per waiver recipient": [
+      "15df654f91e45abd-p27-01076",
+      "15df654f91e45abd-p28-01077"
+    ],
+    "tl modifier": [
+      "d7e291d5f345be10-p12-01121",
+      "d7e291d5f345be10-p14-01123"
+    ],
+    "the current procedural terminology cpt and current dental terminology cdt codes descriptors and other data are copyright 2026 american medical association and 2026 american dental association": [
+      "0de3399ea74d0d6b-p16-01141",
+      "9fc69a57c76db820-p4-01181",
+      "945ab0be1933d150-p34-01483",
+      "3686778d3005095c-p12-01557",
+      "a5be81eadcc9a93f-p41-01760",
+      "30879701f12949eb-p38-01802"
+    ],
+    "chapter 5": [
+      "0cf7f74661264c1c-p5-01145",
+      "e63f0b6e6baab398-p12-01613",
+      "f03ead5b68e5bcb0-p8-01619"
+    ],
+    "3 90": [
+      "4c8101e2587e0df1-p7-01173",
+      "b1fd099ce41ab0d5-p9-01287",
+      "996d5c49588e3b53-p7-01393",
+      "feaa273773a35cba-p10-01575"
+    ],
+    "no place of service codes do not apply when filing the ub 04 claim form": [
+      "9fc69a57c76db820-p3-01180",
+      "0ecaf80a07e40da0-p53-01373",
+      "511b691353c0c811-p13-01546",
+      "45a4665ee3e5482e-p11-01566",
+      "35fee7427470b578-p10-01593"
+    ],
+    "medicaid requires all claims to be filed within one year of the date of service": [
+      "b1fd099ce41ab0d5-p12-01289",
+      "996d5c49588e3b53-p8-01394",
+      "45a4665ee3e5482e-p10-01565"
+    ],
+    "a hard copy ub 04 claim form must be submitted": [
+      "907dd9b0849245e3-p7-01314",
+      "0b35d55bccccd7f2-p18-01330"
+    ],
+    "the ltc gainwell cover sheet from the web portal must accompany the medical record": [
+      "0b35d55bccccd7f2-p14-01326",
+      "b0f817c3d0ed1534-p15-01451"
+    ],
+    "the page is intentionally left blank": [
+      "0ecaf80a07e40da0-p54-01374",
+      "8d6352131172b2d4-p26-01432",
+      "511b691353c0c811-p14-01547",
+      "45a4665ee3e5482e-p12-01567"
+    ],
+    "the first day of the following month": [
+      "8d6352131172b2d4-p2-01412",
+      "58c1f55eed156288-p2-01621"
+    ],
+    "1 800 688 7989": [
+      "8d6352131172b2d4-p25-01431",
+      "58c1f55eed156288-p1-01620",
+      "58c1f55eed156288-p54-01664",
+      "b176d63d2b2876f4-p2-01917"
+    ],
+    "within ninety 90 calendar days": [
+      "3686778d3005095c-p5-01551",
+      "a8213cc6fe5e5d8a-p4-01596"
+    ],
+    "the effective date is the first day of the month that the medicaid agency receives a completed cis request": [
+      "3686778d3005095c-p7-01553",
+      "a8213cc6fe5e5d8a-p6-01598"
+    ],
+    "36415 90": [
+      "3686778d3005095c-p10-01555",
+      "a8213cc6fe5e5d8a-p10-01601"
+    ],
+    "as needed or every 30 days": [
+      "45a4665ee3e5482e-p5-01561",
+      "f03ead5b68e5bcb0-p4-01616"
+    ],
+    "z71 9 counseling unspecified": [
+      "da118b7150dd9a0b-p10-01672",
+      "da118b7150dd9a0b-p11-01673"
+    ],
+    "this page is intentionally left blank": [
+      "da118b7150dd9a0b-p12-01674",
+      "5746c06988ec4433-p2-01837",
+      "655262d284bde781-p10-01891"
+    ],
+    "the current procedural terminology cpt and current dental terminology cdt code descriptors and other data are copyright 2026 american medical association and 2026 american dental association": [
+      "a5be81eadcc9a93f-p42-01761",
+      "30879701f12949eb-p9-01778"
+    ],
+    "gainwell post office box 244032 montgomery al 36124 4032": [
+      "30879701f12949eb-p34-01799",
+      "b176d63d2b2876f4-p4-01919"
+    ],
+    "bc bs of alabama birmingham al": [
+      "655262d284bde781-p3-01885",
+      "655262d284bde781-p6-01888"
+    ],
+    "x": [
+      "7eed075409875bf7-p8-01927",
+      "7eed075409875bf7-p50-01962"
+    ],
+    "pa": [
+      "7eed075409875bf7-p27-01943",
+      "7eed075409875bf7-p33-01948",
+      "7eed075409875bf7-p41-01954",
+      "7eed075409875bf7-p44-01957"
+    ],
+    "0": [
+      "1b74719b09f7434b-p4-01973",
+      "1b74719b09f7434b-p5-01974",
+      "1b74719b09f7434b-p6-01975",
+      "1b74719b09f7434b-p7-01976",
+      "1b74719b09f7434b-p9-01977",
+      "1b74719b09f7434b-p10-01978",
+      "1b74719b09f7434b-p11-01979",
+      "1b74719b09f7434b-p12-01980",
+      "1b74719b09f7434b-p13-01981",
+      "1b74719b09f7434b-p15-01982",
+      "1b74719b09f7434b-p16-01983",
+      "1b74719b09f7434b-p17-01984",
+      "1b74719b09f7434b-p18-01985",
+      "1b74719b09f7434b-p19-01986",
+      "1b74719b09f7434b-p21-01987",
+      "1b74719b09f7434b-p22-01988",
+      "1b74719b09f7434b-p23-01989",
+      "1b74719b09f7434b-p24-01990",
+      "1b74719b09f7434b-p26-01991",
+      "1b74719b09f7434b-p27-01992",
+      "1b74719b09f7434b-p28-01993",
+      "1b74719b09f7434b-p29-01994",
+      "1b74719b09f7434b-p30-01995",
+      "1b74719b09f7434b-p32-01996",
+      "1b74719b09f7434b-p33-01997",
+      "1b74719b09f7434b-p34-01998",
+      "1b74719b09f7434b-p35-01999"
+    ]
+  },
+  "issue_counts": {
+    "low_answer_quote_word_coverage": 142,
+    "quote_not_literal_in_generation_page_corpus": 7,
+    "very_short_answer": 192
+  },
+  "issues": {
+    "low_answer_quote_word_coverage": [
+      {
+        "prompt_id": "1449cbd6ab6d0b77-p1-00000",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "af26a2ae554b0760-p1-00015",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "af26a2ae554b0760-p2-00016",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "a9c14c6ce1c5ae27-p1-00039",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "a9c14c6ce1c5ae27-p2-00040",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "4659aa421aac4bb4-p1-00072",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "191d5f5048c628ae-p1-00085",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ab4e15a919d76022-p1-00107",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ab4e15a919d76022-p2-00108",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ab4e15a919d76022-p13-00117",
+        "coverage": 0.4839
+      },
+      {
+        "prompt_id": "3698ba33f2a33970-p1-00124",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "3698ba33f2a33970-p2-00125",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "10f6ce77049a09d8-p1-00146",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ac74fc6f60a70000-p1-00154",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1320899e5de90f80-p1-00160",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1320899e5de90f80-p2-00161",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "53bbb740f8383f27-p1-00212",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "2a55a05a4996d2e8-p1-00217",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "40da7233f00682c0-p1-00252",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "fe3aec5077928991-p1-00274",
+        "coverage": 0.4286
+      },
+      {
+        "prompt_id": "0e773d7a894998ad-p1-00283",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "2f408c030e12c2f8-p1-00286",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "6041319ef53009c3-p1-00350",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "5d3741662572dc48-p1-00354",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "74a56f9a57d24eba-p1-00357",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "88341d33d70db51c-p1-00362",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "91df6085ad635f21-p1-00381",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "5e927e029bb810d3-p1-00395",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "5e927e029bb810d3-p39-00426",
+        "coverage": 0.3333
+      },
+      {
+        "prompt_id": "2e87ca6c8fd0775e-p1-00433",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7837e0e54ddc565a-p1-00468",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "9b1de32f66ca313c-p1-00472",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "87c4288fee343690-p1-00477",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "30b0784955bb5cbf-p1-00484",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "b2a475a163c5b3e9-p1-00489",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "20d6140fd94cfefd-p1-00493",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "9a4b32a845c3f62b-p1-00500",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "685faf08de431654-p1-00505",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "685faf08de431654-p12-00514",
+        "coverage": 0.1977
+      },
+      {
+        "prompt_id": "0ed5476af85017a2-p1-00526",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "6da21f2ddc14727a-p1-00553",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7c7968019fc160cb-p1-00571",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "6834e42e7f9692e7-p1-00579",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "069412d45e523c65-p11-00589",
+        "coverage": 0.3684
+      },
+      {
+        "prompt_id": "06b0cc360e5ab183-p1-00612",
+        "coverage": 0.3333
+      },
+      {
+        "prompt_id": "4594aedd93098d5d-p1-00626",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "bc7301eed898ae20-p1-00631",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ba3d76ad0640869f-p21-00655",
+        "coverage": 0.2857
+      },
+      {
+        "prompt_id": "a401a0707afb19c6-p1-00673",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "11c0014bc157a7d8-p2-00680",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "042c8a4d82e6a7bf-p1-00700",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "d5a494b11f6c15e1-p1-00723",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "d5a494b11f6c15e1-p2-00724",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "02dab5b9e3325afe-p1-00742",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "02dab5b9e3325afe-p2-00743",
+        "coverage": 0.48
+      },
+      {
+        "prompt_id": "61d87699f5a94b77-p1-00746",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "ae298affc4b4f44e-p11-00762",
+        "coverage": 0.2
+      },
+      {
+        "prompt_id": "380557228cc69f15-p13-00795",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "19bcfae4ffb0d3cc-p12-00812",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "0327094f4b9eeab2-p3-00819",
+        "coverage": 0.375
+      },
+      {
+        "prompt_id": "0327094f4b9eeab2-p16-00830",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "0327094f4b9eeab2-p38-00848",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "0327094f4b9eeab2-p51-00859",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "95074fb5e8ce5fc5-p8-00942",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "d1d5994afc434e12-p15-00982",
+        "coverage": 0.2667
+      },
+      {
+        "prompt_id": "15df654f91e45abd-p41-01088",
+        "coverage": 0.3953
+      },
+      {
+        "prompt_id": "15df654f91e45abd-p62-01105",
+        "coverage": 0.4444
+      },
+      {
+        "prompt_id": "15df654f91e45abd-p65-01107",
+        "coverage": 0.4
+      },
+      {
+        "prompt_id": "15df654f91e45abd-p66-01108",
+        "coverage": 0.4286
+      },
+      {
+        "prompt_id": "15df654f91e45abd-p69-01111",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "4c8101e2587e0df1-p7-01173",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "255f6ed633c9414e-p42-01215",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "b1fd099ce41ab0d5-p9-01287",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "b1fd099ce41ab0d5-p19-01295",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "b1fd099ce41ab0d5-p20-01296",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "b1fd099ce41ab0d5-p21-01297",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "996d5c49588e3b53-p7-01393",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "945ab0be1933d150-p12-01465",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "945ab0be1933d150-p21-01472",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "945ab0be1933d150-p27-01477",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "d6e06d0bb8d31e14-p45-01520",
+        "coverage": 0.2222
+      },
+      {
+        "prompt_id": "feaa273773a35cba-p10-01575",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "feaa273773a35cba-p13-01577",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "e63f0b6e6baab398-p10-01611",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "8a38d785d450a7d8-p56-01720",
+        "coverage": 0.2857
+      },
+      {
+        "prompt_id": "a5be81eadcc9a93f-p11-01735",
+        "coverage": 0.4286
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p2-01838",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p4-01840",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p5-01841",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p8-01843",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p10-01845",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p13-01847",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p14-01848",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p15-01849",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p16-01850",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p20-01853",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p22-01855",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p26-01858",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p31-01862",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p33-01864",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p36-01866",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p38-01868",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p39-01869",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p41-01870",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p42-01871",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "c634e2146fde2d23-p54-01881",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "655262d284bde781-p9-01890",
+        "coverage": 0.3333
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p8-01927",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p10-01929",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p27-01943",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p33-01948",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p41-01954",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p44-01957",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p50-01962",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p2-01972",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p4-01973",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p5-01974",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p6-01975",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p7-01976",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p9-01977",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p10-01978",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p11-01979",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p12-01980",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p13-01981",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p15-01982",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p16-01983",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p17-01984",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p18-01985",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p19-01986",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p21-01987",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p22-01988",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p23-01989",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p24-01990",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p26-01991",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p27-01992",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p28-01993",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p29-01994",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p30-01995",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p32-01996",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p33-01997",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p34-01998",
+        "coverage": 0.0
+      },
+      {
+        "prompt_id": "1b74719b09f7434b-p35-01999",
+        "coverage": 0.0
+      }
+    ],
+    "quote_not_literal_in_generation_page_corpus": [
+      {
+        "prompt_id": "4659aa421aac4bb4-p9-00079",
+        "index": 0,
+        "page": 9,
+        "quote": "Rule No. 560-X-13-.07 Non-covered Items and Services Non-covered items and services include, but are not limited to: (3) Items for use in hospitals, nursing homes, or other institutions. However, DME items may be provided in nursing homes or other institutions for children through the EPSDT Program."
+      },
+      {
+        "prompt_id": "42f34767f7bd27cc-p3-00316",
+        "index": 1,
+        "page": 3,
+        "quote": "Rule No. 560-X-36-.02 Eligibility (3) No waiver services will be provided to recipients in a hospital or nursing facility. Discharge planning by a case manager is a reimbursable service."
+      },
+      {
+        "prompt_id": "d5a494b11f6c15e1-p7-00728",
+        "index": 0,
+        "page": 7,
+        "quote": "Rule No. 560-X-7-.06 Drugs and Biologicals (2) Take-home drugs and medical supplies are not covered in the Medicaid Program."
+      },
+      {
+        "prompt_id": "0327094f4b9eeab2-p15-00829",
+        "index": 0,
+        "page": 15,
+        "quote": "1a Insured’s ID Number Enter the patient’s 13-digit recipient number (12 digits plus the check digit) from the Medicaid identification card and/or eligibility verification response."
+      },
+      {
+        "prompt_id": "be2237dd554cf992-p32-01243",
+        "index": 0,
+        "page": 32,
+        "quote": "Identification of the ACDs Considered for Recipient-Must Include at Least Three (3)"
+      },
+      {
+        "prompt_id": "d6e06d0bb8d31e14-p21-01500",
+        "index": 0,
+        "page": 21,
+        "quote": "When multiple surgical procedures or bilateral procedures are performed during the same operative session, Medicaid pays for the procedure with the highest allowed amount at 100% and 50% of the allowed amount for each subsequent procedure."
+      },
+      {
+        "prompt_id": "7eed075409875bf7-p28-01944",
+        "index": 0,
+        "page": 28,
+        "quote": "Tlso, Triplanar Control, One Piece Rigid Plastic Shell Without Interface L0480 With Multiple Straps"
+      }
+    ],
+    "very_short_answer": [
+      "1449cbd6ab6d0b77-p1-00000",
+      "af26a2ae554b0760-p1-00015",
+      "af26a2ae554b0760-p2-00016",
+      "a9c14c6ce1c5ae27-p1-00039",
+      "a9c14c6ce1c5ae27-p2-00040",
+      "4659aa421aac4bb4-p1-00072",
+      "191d5f5048c628ae-p1-00085",
+      "f3c7839e8a13dc58-p1-00101",
+      "ab4e15a919d76022-p1-00107",
+      "ab4e15a919d76022-p2-00108",
+      "3698ba33f2a33970-p1-00124",
+      "3698ba33f2a33970-p2-00125",
+      "10f6ce77049a09d8-p1-00146",
+      "ac74fc6f60a70000-p1-00154",
+      "1320899e5de90f80-p1-00160",
+      "1320899e5de90f80-p2-00161",
+      "1320899e5de90f80-p45-00196",
+      "53bbb740f8383f27-p1-00212",
+      "2a55a05a4996d2e8-p1-00217",
+      "40da7233f00682c0-p1-00252",
+      "0e773d7a894998ad-p1-00283",
+      "2f408c030e12c2f8-p1-00286",
+      "2f408c030e12c2f8-p34-00313",
+      "42f34767f7bd27cc-p1-00314",
+      "42f34767f7bd27cc-p20-00330",
+      "6041319ef53009c3-p1-00350",
+      "5d3741662572dc48-p1-00354",
+      "74a56f9a57d24eba-p1-00357",
+      "88341d33d70db51c-p1-00362",
+      "91df6085ad635f21-p1-00381",
+      "5e927e029bb810d3-p1-00395",
+      "2e87ca6c8fd0775e-p1-00433",
+      "7837e0e54ddc565a-p1-00468",
+      "9b1de32f66ca313c-p1-00472",
+      "87c4288fee343690-p1-00477",
+      "30b0784955bb5cbf-p1-00484",
+      "b2a475a163c5b3e9-p1-00489",
+      "20d6140fd94cfefd-p1-00493",
+      "9a4b32a845c3f62b-p1-00500",
+      "685faf08de431654-p1-00505",
+      "0ed5476af85017a2-p1-00526",
+      "0ed5476af85017a2-p14-00537",
+      "6da21f2ddc14727a-p1-00553",
+      "7c7968019fc160cb-p1-00571",
+      "6834e42e7f9692e7-p1-00579",
+      "4594aedd93098d5d-p1-00626",
+      "bc7301eed898ae20-p1-00631",
+      "ba3d76ad0640869f-p14-00649",
+      "a401a0707afb19c6-p1-00673",
+      "11c0014bc157a7d8-p2-00680",
+      "042c8a4d82e6a7bf-p1-00700",
+      "d5a494b11f6c15e1-p1-00723",
+      "d5a494b11f6c15e1-p2-00724",
+      "02dab5b9e3325afe-p1-00742",
+      "61d87699f5a94b77-p1-00746",
+      "ae298affc4b4f44e-p23-00772",
+      "19bcfae4ffb0d3cc-p12-00812",
+      "0327094f4b9eeab2-p5-00821",
+      "0327094f4b9eeab2-p16-00830",
+      "0327094f4b9eeab2-p37-00847",
+      "0327094f4b9eeab2-p38-00848",
+      "0327094f4b9eeab2-p39-00849",
+      "0327094f4b9eeab2-p40-00850",
+      "0327094f4b9eeab2-p51-00859",
+      "789449a112a15d25-p12-00904",
+      "9a8d1deb90baf6b9-p9-00918",
+      "339a306a0efb89a0-p9-00930",
+      "339a306a0efb89a0-p11-00931",
+      "339a306a0efb89a0-p14-00934",
+      "95074fb5e8ce5fc5-p8-00942",
+      "11b4f9918f1410a0-p2-00944",
+      "a94fa385bb2dcb10-p5-00951",
+      "d6c634b0598c1bb9-p7-00966",
+      "d1d5994afc434e12-p56-01016",
+      "02605e6a3eda52e2-p24-01052",
+      "02605e6a3eda52e2-p25-01053",
+      "15df654f91e45abd-p69-01111",
+      "d7e291d5f345be10-p12-01121",
+      "d7e291d5f345be10-p14-01123",
+      "0cf7f74661264c1c-p5-01145",
+      "793a05a0151b97f4-p4-01149",
+      "4c8101e2587e0df1-p7-01173",
+      "4c8101e2587e0df1-p9-01175",
+      "255f6ed633c9414e-p2-01182",
+      "255f6ed633c9414e-p42-01215",
+      "be2237dd554cf992-p33-01244",
+      "b1fd099ce41ab0d5-p9-01287",
+      "b1fd099ce41ab0d5-p19-01295",
+      "b1fd099ce41ab0d5-p20-01296",
+      "b1fd099ce41ab0d5-p21-01297",
+      "0aa79d024e3e52d2-p4-01377",
+      "996d5c49588e3b53-p7-01393",
+      "5b1b441c57c68bdf-p9-01403",
+      "5b1b441c57c68bdf-p10-01404",
+      "5b1b441c57c68bdf-p14-01407",
+      "5b1b441c57c68bdf-p18-01410",
+      "8d6352131172b2d4-p20-01427",
+      "460501169880d8aa-p8-01438",
+      "945ab0be1933d150-p12-01465",
+      "945ab0be1933d150-p21-01472",
+      "945ab0be1933d150-p27-01477",
+      "d6e06d0bb8d31e14-p3-01485",
+      "d6e06d0bb8d31e14-p48-01522",
+      "ca2bab0af4842221-p4-01529",
+      "3686778d3005095c-p10-01555",
+      "feaa273773a35cba-p10-01575",
+      "feaa273773a35cba-p13-01577",
+      "35fee7427470b578-p9-01592",
+      "a8213cc6fe5e5d8a-p10-01601",
+      "e63f0b6e6baab398-p10-01611",
+      "e63f0b6e6baab398-p12-01613",
+      "f03ead5b68e5bcb0-p8-01619",
+      "58c1f55eed156288-p19-01635",
+      "8a38d785d450a7d8-p28-01697",
+      "8a38d785d450a7d8-p51-01716",
+      "8a38d785d450a7d8-p55-01719",
+      "a5be81eadcc9a93f-p31-01752",
+      "30879701f12949eb-p8-01777",
+      "c634e2146fde2d23-p2-01838",
+      "c634e2146fde2d23-p4-01840",
+      "c634e2146fde2d23-p8-01843",
+      "c634e2146fde2d23-p10-01845",
+      "c634e2146fde2d23-p13-01847",
+      "c634e2146fde2d23-p14-01848",
+      "c634e2146fde2d23-p15-01849",
+      "c634e2146fde2d23-p20-01853",
+      "c634e2146fde2d23-p22-01855",
+      "c634e2146fde2d23-p31-01862",
+      "c634e2146fde2d23-p39-01869",
+      "c634e2146fde2d23-p41-01870",
+      "c634e2146fde2d23-p42-01871",
+      "c634e2146fde2d23-p44-01873",
+      "655262d284bde781-p2-01884",
+      "655262d284bde781-p4-01886",
+      "655262d284bde781-p5-01887",
+      "655262d284bde781-p8-01889",
+      "faf46a2abf9687d3-p11-01900",
+      "cfca1ff0910abbc4-p9-01913",
+      "7eed075409875bf7-p2-01922",
+      "7eed075409875bf7-p4-01924",
+      "7eed075409875bf7-p8-01927",
+      "7eed075409875bf7-p10-01929",
+      "7eed075409875bf7-p11-01930",
+      "7eed075409875bf7-p14-01932",
+      "7eed075409875bf7-p16-01934",
+      "7eed075409875bf7-p19-01936",
+      "7eed075409875bf7-p25-01941",
+      "7eed075409875bf7-p26-01942",
+      "7eed075409875bf7-p27-01943",
+      "7eed075409875bf7-p28-01944",
+      "7eed075409875bf7-p30-01945",
+      "7eed075409875bf7-p32-01947",
+      "7eed075409875bf7-p33-01948",
+      "7eed075409875bf7-p36-01950",
+      "7eed075409875bf7-p38-01952",
+      "7eed075409875bf7-p41-01954",
+      "7eed075409875bf7-p42-01955",
+      "7eed075409875bf7-p43-01956",
+      "7eed075409875bf7-p44-01957",
+      "7eed075409875bf7-p45-01958",
+      "7eed075409875bf7-p47-01959",
+      "7eed075409875bf7-p49-01961",
+      "7eed075409875bf7-p50-01962",
+      "7eed075409875bf7-p54-01965",
+      "1b74719b09f7434b-p2-01972",
+      "1b74719b09f7434b-p4-01973",
+      "1b74719b09f7434b-p5-01974",
+      "1b74719b09f7434b-p6-01975",
+      "1b74719b09f7434b-p7-01976",
+      "1b74719b09f7434b-p9-01977",
+      "1b74719b09f7434b-p10-01978",
+      "1b74719b09f7434b-p11-01979",
+      "1b74719b09f7434b-p12-01980",
+      "1b74719b09f7434b-p13-01981",
+      "1b74719b09f7434b-p15-01982",
+      "1b74719b09f7434b-p16-01983",
+      "1b74719b09f7434b-p17-01984",
+      "1b74719b09f7434b-p18-01985",
+      "1b74719b09f7434b-p19-01986",
+      "1b74719b09f7434b-p21-01987",
+      "1b74719b09f7434b-p22-01988",
+      "1b74719b09f7434b-p23-01989",
+      "1b74719b09f7434b-p24-01990",
+      "1b74719b09f7434b-p26-01991",
+      "1b74719b09f7434b-p27-01992",
+      "1b74719b09f7434b-p28-01993",
+      "1b74719b09f7434b-p29-01994",
+      "1b74719b09f7434b-p30-01995",
+      "1b74719b09f7434b-p32-01996",
+      "1b74719b09f7434b-p33-01997",
+      "1b74719b09f7434b-p34-01998",
+      "1b74719b09f7434b-p35-01999"
+    ]
+  },
+  "blocking_issue_count": 0,
+  "deterministic_pass": true
+}

@@ -1,0 +1,6 @@
+# Public source PDFs are downloaded from official URLs when reproducing the notebook.
+data/source/2026-09-14/admin_code/*.pdf
+data/source/2026-09-14/provider_manual_core/*.pdf
+*.executed.ipynb
+_prep/
+__pycache__/

@@ -1,0 +1,43 @@
+{
+  "run_date": "2026-09-17",
+  "status": "completed",
+  "model": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+  "training_gpu": "GPU 0",
+  "source_snapshot": "2026-09-14",
+  "canonical_candidate_records": 2000,
+  "ordinary_sft_records": 1999,
+  "quarantined_safety_records": 1,
+  "candidate_sha256": "976f5759b5afe114081464c534a9c4e6c3ee83eafcb9a082cbd78c495a6c691b",
+  "training_candidate_sha256": "9ee0c0c8e788433c62891dcc1259af7c1da446a508bba9e313c38f31db9581462",
+  "dataset_counts": {
+    "train": 1684,
+    "validation": 124,
+    "test": 191
+  },
+  "dataset_tokens": {
+    "train": 403584,
+    "validation": 29674,
+    "test": 44626
+  },
+  "training_image": "alphin-muse-train:2026-09-14@sha256:7f060514f0d1121ac8fda35a19bdc98858e4b6c22487f650eef704b89ee755e6",
+  "finished_at": "2026-09-17T14:19:03.688922-05:00",
+  "stop_reason": "trainer_complete",
+  "global_step": 211,
+  "epoch": 1.0,
+  "train_loss": 0.6200573286174033,
+  "final_eval_loss": 0.5722442269325256,
+  "resumed_from": null,
+  "vision_layers_trained": false,
+  "atem_response_masking": true,
+  "adapter_bytes": 419293392,
+  "adapter_sha256": "b27cca007157b3c1efcdfe4e7798ca49cf159d2a12fad0eeafe1349faef3cac0",
+  "prior_211_step_mixed_candidate_preserved": true,
+  "inkling_restored": true,
+  "notes": [
+    "The fresh run used only Muse-generated records.",
+    "The one intentionally unanswerable blank-page record was excluded from ordinary SFT and retained for abstention evaluation.",
+    "The run completed without an OOM; the Inkling SGLang container was restarted after training and its model endpoint responded afterward.",
+    "A trained adapter is verified. BF16 merge, base-versus-adapter evaluation, and runtime promotion remain separate gates."
+  ],
+  "public_export_note": "Internal host and endpoint identifiers omitted from public copy."
+}

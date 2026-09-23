@@ -1,0 +1,39 @@
+{
+  "run_id": "adapter-2026-09-18-abstention",
+  "model_label": "adapter-2026-09-18",
+  "mode": "adapter",
+  "input_hash": "063c3336e320fa731593f30d7ebe0febea55494e7f3c0ac099424247ea4b81a7",
+  "evaluation_kind": "abstention",
+  "generation_config": {
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "use_cache": true
+  },
+  "expected_records": 1,
+  "prompt_ids_sha256": "c97e0e0e5ac8b19c12c9fac6f91b9c509129119e9c0cb35983ac43eaebf6c201",
+  "records": 1,
+  "nonempty_rate": 1.0,
+  "citation_rate": 0.0,
+  "citation_url_rate": 0.0,
+  "citation_page_rate": 0.0,
+  "numeric_token_recall": 0,
+  "numeric_exact_match_rate": 0.0,
+  "numeric_records": 0,
+  "answer_token_precision": 0.0,
+  "answer_token_recall": 0.0,
+  "answer_token_f1": 0.0,
+  "malformed_rate": 0.0,
+  "truncated_rate": 0.0,
+  "finish_status_counts": {
+    "stop": 1
+  },
+  "mean_reference_word_recall": 0.0,
+  "expected_unanswerable": 1,
+  "abstention_signals": 1,
+  "abstention_accuracy": 1.0,
+  "abstention_test_records": 1,
+  "complete": true,
+  "completed_records": 1,
+  "output": "/workspace/alphin/artifacts/evaluation/2026-09-18/adapter-2026-09-18/abstention.jsonl",
+  "partial_output": "/workspace/alphin/artifacts/evaluation/2026-09-18/adapter-2026-09-18/abstention.partial.jsonl"
+}

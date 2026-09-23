@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "evidence_cutoff": "2026-09-22T07:49:54-05:00",
+  "timezone": "America/Chicago",
+  "source_of_record": {
+    "repository": "https://github.com/porespellar/INAI6986_project_deliverables_project_deliverables",
+    "branch": "main"
+  },
+  "data": {
+    "source_pdfs": 138,
+    "source_pages": 2433,
+    "candidate_records": 2000,
+    "candidate_sha256": "976f5759b5afe114081464c534a9c4e6c3ee83eafcb9a082cbd78c495a6c691b",
+    "ordinary_sft_records": 1999,
+    "ordinary_sft_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+    "quarantined_safety_records": 1,
+    "split": {
+      "train": 1684,
+      "validation": 124,
+      "test": 191
+    },
+    "candidate_bearing_documents": 136,
+    "source_documents_without_candidates": 2,
+    "source_documents_without_candidates_reason": "Reserved one-page Administrative Code PDFs without candidate-bearing text.",
+    "document_overlap": 0,
+    "deterministic_validation": "pass",
+    "human_factual_approval": "incomplete",
+    "quality_findings": {
+      "low_answer_quote_word_coverage": 142,
+      "nonliteral_quotation": 7,
+      "very_short_answer": 192,
+      "exact_duplicate_question_groups": 2,
+      "exact_duplicate_answer_groups": 68,
+      "cross_split_duplicate_answer_groups": 16,
+      "cross_split_duplicate_answer_records": 57
+    }
+  },
+  "training": [
+    {
+      "label": "rejected-mixed-generator-smoke",
+      "finished": "2026-09-16",
+      "steps": 211,
+      "status": "procedural evidence only",
+      "reason": "326 of 2,000 records came from the retired Qwen generator"
+    },
+    {
+      "label": "adapter-2026-09-17-muse-only",
+      "finished": "2026-09-17T14:19:03.688922-05:00",
+      "steps": 211,
+      "train_loss": 0.6200573286174033,
+      "final_eval_loss": 0.5722442269325256,
+      "adapter_sha256": "b27cca007157b3c1efcdfe4e7798ca49cf159d2a12fad0eeafe1349faef3cac0",
+      "ordinary_train_records": 1684,
+      "status": "completed clean corrective run; loss is training evidence, not answer quality"
+    },
+    {
+      "label": "adapter-2026-09-18",
+      "finished": "2026-09-18T11:19:41.672592-05:00",
+      "steps": 211,
+      "train_loss": 0.616871548066207,
+      "final_eval_loss": 0.5736205577850342,
+      "adapter_sha256": "d7867c3acf9fb66742a84395aa42c91851be3f55065ca179adfe9a689d946dde",
+      "status": "completed all-Muse run; operational 1,685-row render is not the canonical clean-data evidence run"
+    }
+  ],
+  "current_evaluation": {
+    "status": "completed diagnostics; comparison blocked",
+    "service_status": "inactive",
+    "pipeline_phase": "winner_selected (blocked)",
+    "generation_config": {
+      "do_sample": false,
+      "max_new_tokens": 512,
+      "use_cache": true
+    },
+    "held_out_records_per_system": 191,
+    "systems_completed": [
+      "Untouched Muse Glimmer 30B",
+      "Muse QLoRA — 2026-09-17 clean adapter",
+      "Muse QLoRA — 2026-09-18 adapter"
+    ],
+    "evaluation_snapshot": "artifacts/milestone1/2026-09-22/evaluation_snapshot.json",
+    "per_prompt_evaluation_root": "artifacts/evaluation/2026-09-18",
+    "ordinary_rows_preserved": 573,
+    "safety_rows_preserved": 3,
+    "formal_comparison_candidate": "Muse QLoRA — 2026-09-17 clean adapter",
+    "formal_comparison_pass": false,
+    "factual_accuracy": null,
+    "winner": null,
+    "hand_authored_control_set": "not yet created"
+  },
+  "model_artifacts": {
+    "frozen_adapters": 2,
+    "frozen_manifest_sha256": "9d7842f7df74e9dd1a248139e30d14a6742fa752d8113fd3e3c7c1c0cb06385f",
+    "bf16_merge": "not completed in current pipeline",
+    "promoted_runtime": "not completed",
+    "backup_release": "model-backup-2026-09-21",
+    "backup_assets": 7
+  },
+  "tests": {
+    "canonical_repository": "194 tests passed; 197 subtests passed in the fresh isolated audit and the executed reproducibility notebook",
+    "focused_milestone1": "11 passed",
+    "bare_pytest_issue": "Resolved for this revision by adding pytest.ini with testpaths=tests to exclude archived duplicate modules."
+  },
+  "open_gates": [
+    "Student-authored 30–50 question control set with source locators",
+    "Human factual scoring on the generated and student-authored sets",
+    "Manual current-practice baseline",
+    "Base-versus-adapter by retrieval/no-retrieval comparison",
+    "Measured ablations for context, dates, rule numbers, exceptions, locators, and misleading headers",
+    "Near-duplicate disposition and sampled human review of quality flags",
+    "Validated merge/load and runtime promotion",
+    "Instructor access confirmation for the private repository and direct notebook URL"
+  ],
+  "fallback_trigger": "If a merged or adapter-loaded ALPHIN artifact has not loaded and produced a complete validated answer by 2026-10-09 5:00 PM CDT, stop the adaptation critical path and proceed with untouched Muse plus versioned retrieval; report adaptation as a documented negative result."
+}

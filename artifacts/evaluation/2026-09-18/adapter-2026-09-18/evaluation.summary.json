@@ -1,0 +1,40 @@
+{
+  "run_id": "adapter-2026-09-18-held_out",
+  "model_label": "adapter-2026-09-18",
+  "mode": "adapter",
+  "input_hash": "89e747acfef5dba7bb6b2bf14b89ca8602f817f0abdb85a9a06e9f392d2cd334",
+  "evaluation_kind": "held_out",
+  "generation_config": {
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "use_cache": true
+  },
+  "expected_records": 191,
+  "prompt_ids_sha256": "44bf1448f93b3ff064da5ea6923c7077921f2b2a54c4ddcb97cd0c91829fe703",
+  "records": 191,
+  "nonempty_rate": 1.0,
+  "citation_rate": 0.125654,
+  "citation_url_rate": 0.230366,
+  "citation_page_rate": 0.240838,
+  "numeric_token_recall": 0,
+  "numeric_exact_match_rate": 0.173913,
+  "numeric_records": 115,
+  "answer_token_precision": 0.486904,
+  "answer_token_recall": 0.397651,
+  "answer_token_f1": 0.408317,
+  "malformed_rate": 0.0,
+  "truncated_rate": 0.020942,
+  "finish_status_counts": {
+    "stop": 187,
+    "length": 4
+  },
+  "mean_reference_word_recall": 0.405824,
+  "expected_unanswerable": 0,
+  "abstention_signals": 0,
+  "abstention_accuracy": null,
+  "abstention_test_records": 0,
+  "complete": true,
+  "completed_records": 191,
+  "output": "/workspace/alphin/artifacts/evaluation/2026-09-18/adapter-2026-09-18/evaluation.jsonl",
+  "partial_output": "/workspace/alphin/artifacts/evaluation/2026-09-18/adapter-2026-09-18/evaluation.partial.jsonl"
+}
