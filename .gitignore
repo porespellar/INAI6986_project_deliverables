@@ -4,3 +4,4 @@ data/source/2026-09-14/provider_manual_core/*.pdf
 *.executed.ipynb
 _prep/
 __pycache__/
+.venv/
