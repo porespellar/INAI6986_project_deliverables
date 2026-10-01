@@ -6,7 +6,9 @@ The author is identified as **J.O.** only. No full personal name, private creden
 
 ## Deliverables
 
-- `docs/J_O_INAI6986_Milestone1_v3.pdf` and `.docx` — identity-protected post-feedback supplement, refreshed through September 30 at 11:30 AM CDT. Its five-page core and appendices report the completed nested Gemma and Muse training series and distinguish token-level fit from unmeasured factual performance. The historical notebook below does not reproduce those new runs. Human review and final comparison remain open.
+- `docs/J_O_INAI6986_Milestone1_v4.pdf` and `.docx` — current identity-protected update through October 1, 2026. Its five-page core and appendices add the eight corrected Nemotron/Ornith nested training runs to the eight Gemma/Muse runs, separate token-level fit from factual-answer performance, and leave candidate selection and the protected final test open. It preserves the original personally authored controls and transparently lists the pending instructor-feedback repairs.
+- `docs/J_O_INAI6986_Milestone2.pdf` and `.docx` — **PRE-TEST WORKING DRAFT; not a completed Milestone 2 submission.** It follows the Milestone 2 rubric and Weeks 7–10, but the representative control, human leakage disposition, candidate freeze, same-split base/model factual test, robustness/subgroup results, and current result-reproducing notebook remain pending. No missing score has been fabricated.
+- `docs/J_O_INAI6986_Milestone1_v3.pdf` and `.docx` — historical identity-protected post-feedback supplement through September 30, 2026, at 12:34 PM CDT. The historical notebook below does not reproduce later model training.
 - `docs/INAI6986_Milestone1_v2.pdf` and `.docx` — identity-protected historical Milestone 1 report, retained unchanged by this publication.
 - `docs/Student_Authored_Independent_Control_Set_30_Questions.pdf` and `.docx` — completed student-authored control set.
 - `docs/Student_Authored_Control_Set_30_Questions.jsonl` — structured control records and source provenance.
