@@ -25,3 +25,7 @@ uv run --with pytest --with nbconvert --with nbformat jupyter nbconvert --to not
 The source downloader verifies SHA-256 for every PDF. PDFs remain local, are ignored by Git, and are not uploaded by the commands above. Review the notebook's open completion gates before treating the diagnostic metrics as a factual-accuracy result. The independent 30-record control set is excluded from training and retained for human scoring.
 
 Each report documents its evidence cutoff and known limitations. Public access allows anyone to view and copy repository contents; this repository is not a private access-control mechanism.
+
+## Detailed training evidence
+
+The public bundle intentionally excludes model weights, raw training examples, and the detailed per-run architecture matrix. Full run configurations, token-level metrics, artifact-integrity manifests, and operational records are maintained in the private project repository.
