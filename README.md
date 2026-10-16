@@ -4,12 +4,22 @@ This repository contains identity-protected public copies of Milestone 1 deliver
 
 The author is identified as **J.O.** only. No full personal name, private credentials, API keys, or local account paths are intentionally published. The candidate-data copy replaces local generation endpoint identifiers with redacted values. The official source PDFs are **not committed** because the documents may include published agency contact details; the manifest lists official URLs and fingerprints, and the downloader stores verified copies locally under a Git-ignored directory. A few source-derived records may likewise quote generic public Alabama Medicaid contact addresses or service numbers; these are official program contacts, not private individual contact details.
 
-## Deliverables
+## Current October 16 Package
+
+Personally reviewed by GPT-6.1 Sol against the actual assignment rubrics and recorded instructor feedback. These are evidence-bound development drafts, not a claim of completed final evaluation or a guaranteed grade.
+
+- `docs/J_O_INAI6986_Milestone1_v4.docx` and `.pdf` — October 16 feedback-responsive report: five-page core plus appendices, 14 pages total. Preserves the original controls; reconciles completed human dispositions, AI-assisted adopted items, development findings and remaining factual-comparison gaps. This update supersedes the October 1 copy at the same path and the October 8 draft below.
+- `docs/J_O_INAI6986_Milestone2.docx` and `.pdf` — October 16 pre-test working report: seven-page core plus evidence/criterion appendices, 10 pages total. Current development metrics are measured; final comparison, final robustness and final subgroup metrics remain NOT RUN. This update supersedes the older copy at the same path, not the historical records themselves.
+- `docs/J_O_INAI6986_Log2_20261016.docx` and `.pdf` — standalone Progress Log 2: Week 8, October 5–11; October 16 follow-up separately dated; 20 hours explicitly estimated, not measured; one-page status plus disclosure/evidence addendum.
+- `notebook/current_evidence_replay_20261016.ipynb`, `.html`, `.pdf` and `_receipt.json` — five sequential code cells, zero errors in fresh-kernel execution; recomputes current training and development-advisory metrics from the scrubbed per-epoch/per-output records in `notebook/evidence_20261016/`, verifying all six input fingerprints. It is a replay, not new training/inference or the missing final test.
+
+Final source approval, native runtime/matched-model proof, immutable protocol seal and genuinely new human ratings remain open. No protected final campaign or deployment approval is claimed. See `docs/README_sol_review_20261016.md` for exact evidence and limitations.
+
+## Historical Deliverables
 
 - `docs/J_O_INAI6986_Milestone2_Current_Development_Report_20261008.pdf` and `.docx` — **current development-phase report, October 8, 2026** (identity-protected; personally reviewed against the Milestone 2 rubric). Reports the completed 192-slot four-family development comparison under the corrected v2 advisory scoring (Nemotron 4/24 base and adapter; Gemma 0→4; Ornith 1→4; Muse 0/24 with a disclosed native-format defect) and the withdrawn-v1 refusal-inflation lesson. **Development evidence only: the protected final benchmark has not been run, final human adjudication is pending, and no final accuracy, threshold verdict, or grade claim is made.**
 - `docs/J_O_INAI6986_Milestone1_Resubmission_20261008.pdf` and `.docx` — current Milestone 1 resubmission draft (6 pages: reviewed core plus appendices), October 8, 2026; the sixteen cross-split duplicate groups (57 records) are now human-dispositioned per the submitted Batch A receipt, and the nine unsupported-case items are disclosed as student-adopted AI-assisted drafts rather than independent student authorship. Resubmission is pending instructor acceptance; no grade claim.
-- `docs/J_O_INAI6986_Milestone1_v4.pdf` and `.docx` — identity-protected update through October 1, 2026, superseded on October 8 by the resubmission draft above. It adds the eight corrected Nemotron/Ornith nested training runs to the eight Gemma/Muse runs and separates token-level fit from factual-answer performance.
-- `docs/J_O_INAI6986_Milestone2.pdf` and `.docx` — October 1 **pre-test working draft, superseded** on October 8 by the current development report above; retained for provenance. No missing score was fabricated in either document.
+- The October 1 versions of the current Milestone 1 v4 and Milestone 2 paths remain in Git history; their paths now contain the October 16 updates listed above.
 - `docs/J_O_INAI6986_Milestone1_v3.pdf` and `.docx` — historical identity-protected post-feedback supplement through September 30, 2026, at 12:34 PM CDT. The historical notebook below does not reproduce later model training.
 - `docs/INAI6986_Milestone1_v2.pdf` and `.docx` — identity-protected historical Milestone 1 report, retained unchanged by this publication.
 - `docs/Student_Authored_Independent_Control_Set_30_Questions.pdf` and `.docx` — completed student-authored control set.
@@ -32,4 +42,4 @@ Each report documents its evidence cutoff and known limitations. Public access a
 
 ## Detailed training evidence
 
-The public bundle intentionally excludes model weights, raw training examples, and the detailed per-run architecture matrix. Full run configurations, token-level metrics, artifact-integrity manifests, and operational records are maintained in the private project repository.
+The public bundle excludes model weights, raw training examples, local endpoints and protected new-benchmark question/key text. The October 16 replay includes only the scrubbed numeric per-epoch/per-output records needed to reproduce its displayed development metrics, plus structural corpus/source-membership audits and their manifest. It does not include raw inference prompts, answer text or native training assets. Full operational records and original-byte provenance remain in the private source repository.

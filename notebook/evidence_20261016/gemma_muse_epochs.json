@@ -1,0 +1,1741 @@
+[
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b__N200__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs3__repeat01",
+    "train_size": 200,
+    "step": 25,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 20930,
+      "loss": 1.1404600143432617,
+      "next_token_accuracy": 0.7460079840319361,
+      "scored_tokens": 28056
+    },
+    "validation": null,
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "7aa0abc25ec3483d2bba2fb492dd90e7f3081c3a154e8a4fada26edaedddafdb",
+      "render_manifest_sha256": "cc768119f531fae43b9e617603e4bb7e3a17cec2853cbe997ae46a266f165782",
+      "train_file_sha256": "674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n200/seed20260925/repeat01/checkpoint-75",
+      "best_validation_loss": 0.7044158577919006,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T15:28:02-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53506863616,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:16:15-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 707.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b__N200__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs3__repeat01",
+    "train_size": 200,
+    "step": 50,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 23283,
+      "loss": 0.7575028106859174,
+      "next_token_accuracy": 0.8298759623609923,
+      "scored_tokens": 28056
+    },
+    "validation": {
+      "correct_tokens": 14889,
+      "evaluation_runtime_seconds": 38.0804,
+      "loss": 0.7751387357711792,
+      "next_token_accuracy": 0.8214620689655172,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "7aa0abc25ec3483d2bba2fb492dd90e7f3081c3a154e8a4fada26edaedddafdb",
+      "render_manifest_sha256": "cc768119f531fae43b9e617603e4bb7e3a17cec2853cbe997ae46a266f165782",
+      "train_file_sha256": "674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n200/seed20260925/repeat01/checkpoint-75",
+      "best_validation_loss": 0.7044158577919006,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T15:28:02-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53506863616,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:16:15-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 707.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b__N200__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs3__repeat01",
+    "train_size": 200,
+    "step": 75,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 23680,
+      "loss": 0.6892645479163189,
+      "next_token_accuracy": 0.8440262332477901,
+      "scored_tokens": 28056
+    },
+    "validation": {
+      "correct_tokens": 15126,
+      "evaluation_runtime_seconds": 37.9069,
+      "loss": 0.7044158577919006,
+      "next_token_accuracy": 0.8345379310344827,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "7aa0abc25ec3483d2bba2fb492dd90e7f3081c3a154e8a4fada26edaedddafdb",
+      "render_manifest_sha256": "cc768119f531fae43b9e617603e4bb7e3a17cec2853cbe997ae46a266f165782",
+      "train_file_sha256": "674145eab0f171bab95ce21f73f63b8e5fe97a1bd43a16421a63a8db28b4660b",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n200/seed20260925/repeat01/checkpoint-75",
+      "best_validation_loss": 0.7044158577919006,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T15:28:02-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53506863616,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:16:15-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 707.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 64,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 61990,
+      "loss": 0.6591686846156475,
+      "next_token_accuracy": 0.8472514555941284,
+      "scored_tokens": 73166
+    },
+    "validation": {
+      "correct_tokens": 15259,
+      "evaluation_runtime_seconds": 38.2138,
+      "loss": 0.6508456468582153,
+      "next_token_accuracy": 0.8418758620689655,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T16:15:51-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "checkpointed_at_work_window",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2427.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 128,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 63361,
+      "loss": 0.5429614697759518,
+      "next_token_accuracy": 0.8659896673318208,
+      "scored_tokens": 73166
+    },
+    "validation": {
+      "correct_tokens": 15393,
+      "evaluation_runtime_seconds": 38.1607,
+      "loss": 0.6059563159942627,
+      "next_token_accuracy": 0.8492689655172414,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T16:15:51-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "checkpointed_at_work_window",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2427.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 192,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 64763,
+      "loss": 0.4432555074976568,
+      "next_token_accuracy": 0.8851515731350628,
+      "scored_tokens": 73166
+    },
+    "validation": {
+      "correct_tokens": 15441,
+      "evaluation_runtime_seconds": 38.2349,
+      "loss": 0.6067492365837097,
+      "next_token_accuracy": 0.8519172413793104,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T16:15:51-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "checkpointed_at_work_window",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2427.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 200,
+    "epoch": 3.1257367387033397,
+    "train": null,
+    "validation": {
+      "correct_tokens": 15452,
+      "evaluation_runtime_seconds": 38.4469,
+      "loss": 0.6177834272384644,
+      "next_token_accuracy": 0.8525241379310344,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-25T16:15:51-05:00",
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "checkpointed_at_work_window",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2427.0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 256,
+    "epoch": 4.0,
+    "train": {
+      "correct_tokens": 65894,
+      "loss": 0.3687737366246569,
+      "next_token_accuracy": 0.9006095727523713,
+      "scored_tokens": 73166
+    },
+    "validation": {
+      "correct_tokens": 15450,
+      "evaluation_runtime_seconds": 37.75,
+      "loss": 0.632121741771698,
+      "next_token_accuracy": 0.8524137931034482,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "control_rows_used": 0,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "latest_checkpoint": "checkpoint-256",
+      "latest_checkpoint_adapter_sha256": "718e308249bbeedff8e257252dc5fc915ae86b84e8e5739551a6c41396dba2a4",
+      "latest_checkpoint_trainer_state_sha256": "7f582a06d0d5debbe806c9c7391d2a7596da038b62f3b9553e81523a4da604d7",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "pre_resume_finished_at": "2026-09-25T16:15:51-05:00",
+      "pre_resume_status": "checkpointed_at_work_window",
+      "pre_resume_wall_duration_seconds": 2427.0,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "resume_started_at": "2026-09-28T11:51:00-05:00",
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "running_resumed",
+      "test_rows_used": 0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6__N509__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs5__repeat01",
+    "train_size": 509,
+    "step": 320,
+    "epoch": 5.0,
+    "train": {
+      "correct_tokens": 66443,
+      "loss": 0.33727416486150275,
+      "next_token_accuracy": 0.9081130579777492,
+      "scored_tokens": 73166
+    },
+    "validation": {
+      "correct_tokens": 15412,
+      "evaluation_runtime_seconds": 37.3763,
+      "loss": 0.6636356711387634,
+      "next_token_accuracy": 0.8503172413793103,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "raw_data_manifest_sha256": "e25304fd258b74b9c539b0e49c489f59c877252ffa0726e2b1b02da8d239e64a",
+      "render_manifest_sha256": "3590cecea3d2f74e5028df730d0fb724a636f62b0aae9094f1fc429d99568162",
+      "train_file_sha256": "8319acbc9118974c70234dd44a07644c7d1684f3fe466bfb9cc865161a82fee6",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n509/seed20260925/repeat01/checkpoint-128",
+      "best_validation_loss": 0.6059563159942627,
+      "checkpoint": "checkpoint-320",
+      "checkpoint_adapter_sha256": "f8c69f226de13bcd4f5f5e381a1219f5760446396ea809b35e0a5ef96082f6de",
+      "checkpoint_trainer_state_sha256": "3492002cf590a4f78104f40b18290a90de6e7527af8e7546ae9655290c0cab6e",
+      "control_rows_used": 0,
+      "epoch": 5.0,
+      "finished_at": "2026-09-28T12:12:11-05:00",
+      "global_step": 320,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "latest_checkpoint": "checkpoint-256",
+      "latest_checkpoint_adapter_sha256": "718e308249bbeedff8e257252dc5fc915ae86b84e8e5739551a6c41396dba2a4",
+      "latest_checkpoint_trainer_state_sha256": "7f582a06d0d5debbe806c9c7391d2a7596da038b62f3b9553e81523a4da604d7",
+      "peak_cuda_allocated_bytes": 53512365056,
+      "pre_resume_finished_at": "2026-09-25T16:15:51-05:00",
+      "pre_resume_status": "checkpointed_at_work_window",
+      "pre_resume_wall_duration_seconds": 2427.0,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "resume_container": "alphin-gemma4-n509-resume",
+      "resume_container_id": "955bcfd418f13361cd0cda83696a1442b5b78066697850581ee6d427540b123a",
+      "resume_peak_cuda_allocated_bytes": 53513454592,
+      "resume_segment_started_at": "2026-09-28T11:47:33-05:00",
+      "resume_segment_train_steps_per_second_schedule_based": 0.218,
+      "resume_segment_trainer_runtime_seconds": 1470.0296,
+      "resume_started_at": "2026-09-28T11:51:00-05:00",
+      "started_at": "2026-09-25T15:35:24-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31__N750__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs7__repeat01",
+    "train_size": 750,
+    "step": 94,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 92954,
+      "loss": 0.6181925884876951,
+      "next_token_accuracy": 0.8526090824871816,
+      "scored_tokens": 109023
+    },
+    "validation": {
+      "correct_tokens": 15348,
+      "evaluation_runtime_seconds": 37.965,
+      "loss": 0.6199468374252319,
+      "next_token_accuracy": 0.8467862068965517,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 705,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "882d886a865341da04472867c4872cc5d330a21a2696c624555b4e897704072c",
+      "render_manifest_sha256": "2c3c8aed7fe403a10990ef37ef660bf2e2cb3529f7146772213061118becf065",
+      "test_rows_used": 0,
+      "train_file_sha256": "f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_rows": 750,
+      "train_size": 750,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n750/seed20260925/repeat01/checkpoint-94",
+      "best_validation_loss": 0.6199468374252319,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 7,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-28T12:21:49-05:00",
+      "status": "running",
+      "test_rows_used": 0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31__N750__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs7__repeat01",
+    "train_size": 750,
+    "step": 188,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 95600,
+      "loss": 0.4791354497489101,
+      "next_token_accuracy": 0.8768791906295001,
+      "scored_tokens": 109023
+    },
+    "validation": {
+      "correct_tokens": 15511,
+      "evaluation_runtime_seconds": 37.7178,
+      "loss": 0.5829281210899353,
+      "next_token_accuracy": 0.8557793103448276,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 705,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "882d886a865341da04472867c4872cc5d330a21a2696c624555b4e897704072c",
+      "render_manifest_sha256": "2c3c8aed7fe403a10990ef37ef660bf2e2cb3529f7146772213061118becf065",
+      "test_rows_used": 0,
+      "train_file_sha256": "f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_rows": 750,
+      "train_size": 750,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n750/seed20260925/repeat01/checkpoint-188",
+      "best_validation_loss": 0.5829281210899353,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 7,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-28T12:21:49-05:00",
+      "status": "running",
+      "test_rows_used": 0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31__N750__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs7__repeat01",
+    "train_size": 750,
+    "step": 282,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 98807,
+      "loss": 0.33614761047171443,
+      "next_token_accuracy": 0.9062950019720609,
+      "scored_tokens": 109023
+    },
+    "validation": {
+      "correct_tokens": 15474,
+      "evaluation_runtime_seconds": 37.7896,
+      "loss": 0.6205406188964844,
+      "next_token_accuracy": 0.8537379310344828,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 705,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "882d886a865341da04472867c4872cc5d330a21a2696c624555b4e897704072c",
+      "render_manifest_sha256": "2c3c8aed7fe403a10990ef37ef660bf2e2cb3529f7146772213061118becf065",
+      "test_rows_used": 0,
+      "train_file_sha256": "f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_rows": 750,
+      "train_size": 750,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n750/seed20260925/repeat01/checkpoint-188",
+      "best_validation_loss": 0.5829281210899353,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 7,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-28T12:21:49-05:00",
+      "status": "running",
+      "test_rows_used": 0
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31__N750__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs7__repeat01",
+    "train_size": 750,
+    "step": 376,
+    "epoch": 4.0,
+    "train": {
+      "correct_tokens": 102067,
+      "loss": 0.21921066894739505,
+      "next_token_accuracy": 0.9361969492675858,
+      "scored_tokens": 109023
+    },
+    "validation": {
+      "correct_tokens": 15429,
+      "evaluation_runtime_seconds": 37.8523,
+      "loss": 0.6946203708648682,
+      "next_token_accuracy": 0.8512551724137931,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 705,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "882d886a865341da04472867c4872cc5d330a21a2696c624555b4e897704072c",
+      "render_manifest_sha256": "2c3c8aed7fe403a10990ef37ef660bf2e2cb3529f7146772213061118becf065",
+      "test_rows_used": 0,
+      "train_file_sha256": "f15a161c75717f3ae86ca5898a4f023a00c1c6c696f15c4a933c0957e35c7f31",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_rows": 750,
+      "train_size": 750,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n750/seed20260925/repeat01/checkpoint-188",
+      "best_validation_loss": 0.5829281210899353,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-28T13:36:53-05:00",
+      "global_step": 376,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "peak_cuda_allocated_bytes": 53512374272,
+      "started_at": "2026-09-28T12:23:51-05:00",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping_after_two_consecutive_non_improving_validation_evaluations",
+      "test_rows_used": 0,
+      "trainer_reported_aggregate_train_loss": 0.5885633851619477,
+      "trainer_runtime_seconds": 4374.2304,
+      "trainer_speed_metrics_schedule_based": true
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac__N1600__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs10__repeat01",
+    "train_size": 1600,
+    "step": 200,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 201602,
+      "loss": 0.5399995919368349,
+      "next_token_accuracy": 0.8669189421629757,
+      "scored_tokens": 232550
+    },
+    "validation": {
+      "correct_tokens": 15549,
+      "evaluation_runtime_seconds": 38.3817,
+      "loss": 0.5751096606254578,
+      "next_token_accuracy": 0.8578758620689655,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 769,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "73c08d3ea71ba208a7ed4e07128a621e5cdcb6b2a564b5d4ee28f9969f72a4d8",
+      "render_manifest_sha256": "5b9938447d04f9dc9a9d3a62b84ab567acdd3e76bd690dd6b92c59109e4645d8",
+      "test_rows_used": 0,
+      "train_file_sha256": "13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n1600/seed20260925/repeat01/checkpoint-200",
+      "best_validation_loss": 0.5751096606254578,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 10,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "seed": 20260925,
+      "started_at": "2026-09-28T13:45:12.311396-05:00",
+      "status": "running",
+      "test_rows_used": 0,
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_rows": 124
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac__N1600__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs10__repeat01",
+    "train_size": 1600,
+    "step": 400,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 208438,
+      "loss": 0.38315626243058687,
+      "next_token_accuracy": 0.8963147710169856,
+      "scored_tokens": 232550
+    },
+    "validation": {
+      "correct_tokens": 15565,
+      "evaluation_runtime_seconds": 38.3156,
+      "loss": 0.5749968886375427,
+      "next_token_accuracy": 0.8587586206896551,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 769,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "73c08d3ea71ba208a7ed4e07128a621e5cdcb6b2a564b5d4ee28f9969f72a4d8",
+      "render_manifest_sha256": "5b9938447d04f9dc9a9d3a62b84ab567acdd3e76bd690dd6b92c59109e4645d8",
+      "test_rows_used": 0,
+      "train_file_sha256": "13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n1600/seed20260925/repeat01/checkpoint-400",
+      "best_validation_loss": 0.5749968886375427,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "global_step": 400,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 10,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "seed": 20260925,
+      "started_at": "2026-09-28T13:45:12.311396-05:00",
+      "status": "running",
+      "test_rows_used": 0,
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_rows": 124
+    }
+  },
+  {
+    "model_id": "google/gemma-4-26B-A4B-it",
+    "run_id": "google/gemma-4-26B-A4B-it@4d7ae4984b7db7de8f8457170b3f1a419ee76d52__train-13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac__N1600__seed20260925__bf16-lora-r4-a8-lr1e-4-ga8__maxEpochs10__repeat01",
+    "train_size": 1600,
+    "step": 600,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 216382,
+      "loss": 0.24350623651553835,
+      "next_token_accuracy": 0.9304751666308321,
+      "scored_tokens": 232550
+    },
+    "validation": {
+      "correct_tokens": 15524,
+      "evaluation_runtime_seconds": 38.5314,
+      "loss": 0.6180288791656494,
+      "next_token_accuracy": 0.856496551724138,
+      "scored_tokens": 18125
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "control_rows_used": 0,
+      "max_rendered_tokens": 769,
+      "model_id": "google/gemma-4-26B-A4B-it",
+      "model_revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "raw_data_manifest_sha256": "73c08d3ea71ba208a7ed4e07128a621e5cdcb6b2a564b5d4ee28f9969f72a4d8",
+      "render_manifest_sha256": "5b9938447d04f9dc9a9d3a62b84ab567acdd3e76bd690dd6b92c59109e4645d8",
+      "test_rows_used": 0,
+      "train_file_sha256": "13f5df4bc4dc6b2f0ec84f70c4a8391298c2eb8d18329dcb30f8f41d251147ac",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_file_sha256": "ccb5feb83ed0086eb38c0690e181f69706867d32671ce44cc4fdb61be3da80f6",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    "run": {
+      "bad_validation_epochs_at_stop": 2,
+      "best_model_checkpoint": "/training/gemma4-26B-A4B-it/2026-09-25/n1600/seed20260925/repeat01/checkpoint-400",
+      "best_validation_loss": 0.5749968886375427,
+      "container_exit_code": 0,
+      "control_rows_used": 0,
+      "final_epoch": 3.0,
+      "finished_at": "2026-09-28T15:42:27-05:00",
+      "global_step": 600,
+      "host_gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "oom_killed": false,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 10,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0001,
+        "lora_alpha": 8,
+        "lora_rank": 4,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "seed": 20260925,
+      "started_at": "2026-09-28T13:47:10-05:00",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping_patience_exhausted_step600_reconstructed_from_eval_history_and_runner_rule",
+      "stop_reason_note": "Reconstructed from epoch validations and predeclared callback: step400 improved over step200 by only 0.0001128 (<0.005 min-delta), then step600 validation worsened; two non-improving evaluations trigger stop. training_summary.json does not persist an explicit stop_reason.",
+      "test_rows_used": 0,
+      "train_rows": 1600,
+      "train_size": 1600,
+      "validation_rows": 124
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N200__seed20260925__lr2e-4-r16-a16__maxEpochs3",
+    "train_size": 200,
+    "step": 25,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 21230,
+      "loss": 0.525174958116313,
+      "next_token_accuracy": 0.8662831027869589,
+      "scored_tokens": 24507
+    },
+    "validation": {
+      "correct_tokens": 13534,
+      "loss": 0.5852724313735962,
+      "next_token_accuracy": 0.851034396025907,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "797f8cd9c3065ca8e40abdeea94a2547c7ed9de18cfc0e5dddff0890ee9f192b",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "<home>/models/INAI6986/muse-comparison-runs/muse-glimmer-n200-20260929/checkpoint-25",
+      "best_validation_loss": 0.5852724313735962,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T13:18:22-05:00",
+      "host_gpu": "NVIDIA RTX A6000",
+      "peak_cuda_allocated_bytes": 23737251328,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:04:28-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 827.9286
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N200__seed20260925__lr2e-4-r16-a16__maxEpochs3",
+    "train_size": 200,
+    "step": 50,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 22135,
+      "loss": 0.3504833322782687,
+      "next_token_accuracy": 0.9032113273758517,
+      "scored_tokens": 24507
+    },
+    "validation": {
+      "correct_tokens": 13515,
+      "loss": 0.6072962880134583,
+      "next_token_accuracy": 0.8498396528956801,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "797f8cd9c3065ca8e40abdeea94a2547c7ed9de18cfc0e5dddff0890ee9f192b",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "<home>/models/INAI6986/muse-comparison-runs/muse-glimmer-n200-20260929/checkpoint-25",
+      "best_validation_loss": 0.5852724313735962,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T13:18:22-05:00",
+      "host_gpu": "NVIDIA RTX A6000",
+      "peak_cuda_allocated_bytes": 23737251328,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:04:28-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 827.9286
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N200__seed20260925__lr2e-4-r16-a16__maxEpochs3",
+    "train_size": 200,
+    "step": 75,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 22828,
+      "loss": 0.23756978806404958,
+      "next_token_accuracy": 0.9314889623372914,
+      "scored_tokens": 24507
+    },
+    "validation": {
+      "correct_tokens": 13444,
+      "loss": 0.6588932871818542,
+      "next_token_accuracy": 0.8453750864616739,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "797f8cd9c3065ca8e40abdeea94a2547c7ed9de18cfc0e5dddff0890ee9f192b",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "b816bca2ebbe86f040d1ffb697af37b1aa865ad6432fa2c33dfc593fbb64a13d",
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "<home>/models/INAI6986/muse-comparison-runs/muse-glimmer-n200-20260929/checkpoint-25",
+      "best_validation_loss": 0.5852724313735962,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T13:18:22-05:00",
+      "host_gpu": "NVIDIA RTX A6000",
+      "peak_cuda_allocated_bytes": 23737251328,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 3,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:04:28-05:00",
+      "status": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 827.9286
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N509__seed20260925__lr2e-4-r16-a16__maxEpochs5",
+    "train_size": 509,
+    "step": 64,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 56250,
+      "loss": 0.46379538515187596,
+      "next_token_accuracy": 0.8786454021462379,
+      "scored_tokens": 64019
+    },
+    "validation": {
+      "correct_tokens": 13587,
+      "loss": 0.572673499584198,
+      "next_token_accuracy": 0.8543671005470665,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "6f77acb7141a941f57fc19f1e7fe5dc7d099fb61abf32d2bdc8123dec382fc52",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-64",
+      "best_validation_loss": 0.572673499584198,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T14:16:04-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:43:02-05:00",
+      "status": "trainer_complete_step192_best_checkpoint64",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 1913.0
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N509__seed20260925__lr2e-4-r16-a16__maxEpochs5",
+    "train_size": 509,
+    "step": 128,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 59933,
+      "loss": 0.2305344269941041,
+      "next_token_accuracy": 0.9361751979880972,
+      "scored_tokens": 64019
+    },
+    "validation": {
+      "correct_tokens": 13495,
+      "loss": 0.6263543963432312,
+      "next_token_accuracy": 0.8485820285480727,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "6f77acb7141a941f57fc19f1e7fe5dc7d099fb61abf32d2bdc8123dec382fc52",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-64",
+      "best_validation_loss": 0.572673499584198,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T14:16:04-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:43:02-05:00",
+      "status": "trainer_complete_step192_best_checkpoint64",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 1913.0
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N509__seed20260925__lr2e-4-r16-a16__maxEpochs5",
+    "train_size": 509,
+    "step": 192,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 62507,
+      "loss": 0.08556226841415775,
+      "next_token_accuracy": 0.9763820115903091,
+      "scored_tokens": 64019
+    },
+    "validation": {
+      "correct_tokens": 13470,
+      "loss": 0.7456433773040771,
+      "next_token_accuracy": 0.8470099981135635,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "raw_data_manifest_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "render_manifest_sha256": "6f77acb7141a941f57fc19f1e7fe5dc7d099fb61abf32d2bdc8123dec382fc52",
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2d404257dfeac5bccb9ffcc34fb5e6da5059a00e5eaa0aedc8ca7f413c52fb7a",
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-64",
+      "best_validation_loss": 0.572673499584198,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T14:16:04-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T13:44:11-05:00",
+      "status": "trainer_complete_step192_best_checkpoint64",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 1913.0
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N750__seed20260925__lr2e-4-r16-a16__maxEpochs7",
+    "train_size": 750,
+    "step": 94,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 84019,
+      "loss": 0.45315609126456496,
+      "next_token_accuracy": 0.8804162169525626,
+      "scored_tokens": 95431
+    },
+    "validation": {
+      "correct_tokens": 13587,
+      "loss": 0.5724552273750305,
+      "next_token_accuracy": 0.8543671005470665,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "626da3fdd2df85210c2f80b4969ab9d97f4ca4458b719841c4af20a5b8a20c87",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-94",
+      "best_validation_loss": 0.5724552273750305,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T15:09:19-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T14:22:11-05:00",
+      "status": "trainer_complete_step282_best_checkpoint94",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2758
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N750__seed20260925__lr2e-4-r16-a16__maxEpochs7",
+    "train_size": 750,
+    "step": 188,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 89535,
+      "loss": 0.21372159032400137,
+      "next_token_accuracy": 0.9382171411805388,
+      "scored_tokens": 95431
+    },
+    "validation": {
+      "correct_tokens": 13569,
+      "loss": 0.6279348134994507,
+      "next_token_accuracy": 0.8532352386342199,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "626da3fdd2df85210c2f80b4969ab9d97f4ca4458b719841c4af20a5b8a20c87",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-94",
+      "best_validation_loss": 0.5724552273750305,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T15:09:19-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T14:22:11-05:00",
+      "status": "trainer_complete_step282_best_checkpoint94",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2758
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N750__seed20260925__lr2e-4-r16-a16__maxEpochs7",
+    "train_size": 750,
+    "step": 282,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 93238,
+      "loss": 0.08462921660574484,
+      "next_token_accuracy": 0.9770200458970355,
+      "scored_tokens": 95431
+    },
+    "validation": {
+      "correct_tokens": 13485,
+      "loss": 0.744688868522644,
+      "next_token_accuracy": 0.847953216374269,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "626da3fdd2df85210c2f80b4969ab9d97f4ca4458b719841c4af20a5b8a20c87",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "75de086f0e324b9f4faefa29ee902103ec6ea84a5a88920068dd112039c0baf2",
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-94",
+      "best_validation_loss": 0.5724552273750305,
+      "control_rows_used": 0,
+      "finished_at": "2026-09-29T15:09:19-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "peak_cuda_allocated_bytes": 23781283840,
+      "recipe": {
+        "dtype": "bfloat16",
+        "early_stopping_min_delta": 0.005,
+        "early_stopping_patience": 2,
+        "epochs": 5,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 0.0002,
+        "lora_alpha": 16,
+        "lora_rank": 16,
+        "max_seq_length": 1024,
+        "optimizer": "adamw_8bit",
+        "per_device_batch_size": 1
+      },
+      "started_at": "2026-09-29T14:22:11-05:00",
+      "status": "trainer_complete_step282_best_checkpoint94",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 2758
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N1600__seed20260925__lr2e-4-r16-a16__maxEpochs10",
+    "train_size": 1600,
+    "step": 200,
+    "epoch": 1.0,
+    "train": {
+      "correct_tokens": 181006,
+      "loss": 0.4067212856520807,
+      "next_token_accuracy": 0.8915453761851989,
+      "scored_tokens": 203025
+    },
+    "validation": {
+      "correct_tokens": 13604,
+      "loss": 0.5787246227264404,
+      "next_token_accuracy": 0.8554360812425329,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "003a0850186355f0912c54bbb54a023723662acf150c04a93d97d1509a23177c",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-200",
+      "best_validation_loss": 0.5787246227264404,
+      "control_rows_used": 0,
+      "finished_at": null,
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "started_at": "2026-09-29T15:15:45-05:00",
+      "status": "training_active_after_epoch1",
+      "test_rows_used": 0,
+      "wall_duration_seconds": null
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N1600__seed20260925__lr2e-4-r16-a16__maxEpochs10",
+    "train_size": 1600,
+    "step": 400,
+    "epoch": 2.0,
+    "train": {
+      "correct_tokens": 191303,
+      "loss": 0.19686436595892923,
+      "next_token_accuracy": 0.9422632680704347,
+      "scored_tokens": 203025
+    },
+    "validation": {
+      "correct_tokens": 13583,
+      "loss": 0.6054289937019348,
+      "next_token_accuracy": 0.8541155756775451,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "003a0850186355f0912c54bbb54a023723662acf150c04a93d97d1509a23177c",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-200",
+      "best_validation_loss": 0.5787246227264404,
+      "control_rows_used": 0,
+      "exit_code": 137,
+      "final_saved_global_step": 401,
+      "finished_at": "2026-09-29T16:20:41-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "latest_checkpoint": "checkpoint-401",
+      "oom": false,
+      "started_at": "2026-09-29T15:15:45-05:00",
+      "status": "paused_work_window",
+      "stop_reason": "workday checkpoint/stop deadline; Docker stop timeout elapsed",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 3896
+    }
+  },
+  {
+    "model_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit",
+    "run_id": "unsloth/Muse-Glimmer-30B-unsloth-bnb-4bit@ecedda395d4d099b477d135a9a573eedaa5a7aad__train-2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6__val-a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428__N1600__seed20260925__lr2e-4-r16-a16__maxEpochs10",
+    "train_size": 1600,
+    "step": 600,
+    "epoch": 3.0,
+    "train": {
+      "correct_tokens": 198072,
+      "loss": 0.08769051418997065,
+      "next_token_accuracy": 0.9756039896564462,
+      "scored_tokens": 203025
+    },
+    "validation": {
+      "correct_tokens": 13473,
+      "loss": 0.7249008417129517,
+      "next_token_accuracy": 0.8471986417657046,
+      "scored_tokens": 15903
+    },
+    "validation_rows": 124,
+    "data_identity": {
+      "data_manifest_sha256": "003a0850186355f0912c54bbb54a023723662acf150c04a93d97d1509a23177c",
+      "model_bundle_file_sha256": {
+        ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "README.md": "6e79f5c6cdbdd5d638d338058025036ccc4f8a1c3404426d1b18a4fce2fa9ef2",
+        "chat_template.jinja": "114f55ebdc1804c1af371197b9fdf2d6bb925966c9dfe46b73782a71bc07965e",
+        "config.json": "b3fd6527f3d5c88d715706d214e9a426e107aa2993f043b34fcd6ca1d62c26e7",
+        "generation_config.json": "b0e427c998641420eb4091cc85d4e15643fb57f89222834a14ec76430625b6fb",
+        "model-00001-of-00005.safetensors": "8741fd4122ec9b66592a9b93b69406081fbaea062fc4e1dfd6eefa03266e7750",
+        "model-00002-of-00005.safetensors": "a4ecfcf6c8c42c691f4ea220216022b34d0192b022204d8ef6f49686c3137907",
+        "model-00003-of-00005.safetensors": "5ef2bd57a8ca81c86bede7cad16a4138779156c334584259673317898d23b669",
+        "model-00004-of-00005.safetensors": "3cde6287510ba94cf0ce6f65a8e831f1302412ae066277ebb29b7847f4427791",
+        "model-00005-of-00005.safetensors": "ab332012a2b0ad213bf5ea05f1092efd86c1271dfcef8ac153df08bab1674af2",
+        "model.safetensors.index.json": "8ec074473bdb2704e5f79d2cc656cc8faa5a7c713bdb73e69fe20904ee66f5bd",
+        "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+        "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+        "tokenizer_config.json": "b2c352bba1d2ee25295aa84e7bdaa15a2b0305b79009926bcea72516ca200d42"
+      },
+      "split_manifest_sha256": "465c00de7239bc9f8c852b462e4b71b704130574f4768eaa8e396198643d62be",
+      "train_file_sha256": "2599d18dd80300a5c9639c4085ddc69b5a421c24396159faa0fd4cb6bb07b4d6",
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "validation_file_sha256": "a72d988a5a2ba89bca336cfd45d29a3d44c7ea6c80cb5db62cda913a917db428",
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32"
+    },
+    "run": {
+      "best_model_checkpoint": "checkpoint-200",
+      "best_validation_loss": 0.5787246227264404,
+      "container": "alphin-muse-n1600-resume-20260930",
+      "container_exit_code": 0,
+      "container_id": "455a1fd00d3fd252f17d628aa23b910a272660cbfcd29fa5785959b5a1b5fe7f",
+      "control_rows_used": 0,
+      "exit_code": 137,
+      "final_saved_global_step": 401,
+      "finished_at": "2026-09-30T08:34:41-05:00",
+      "host_gpu": "NVIDIA RTX A6000 GPU1",
+      "latest_checkpoint": "checkpoint-600",
+      "oom": false,
+      "peak_cuda_allocated_bytes": 23811433472,
+      "resume_session_runtime_seconds": 1916.5656,
+      "resume_started_at": "2026-09-30T08:02:37-05:00",
+      "resumed_from": "checkpoint-401",
+      "started_at": "2026-09-29T15:15:45-05:00",
+      "status": "trainer_complete_step600_best_checkpoint200",
+      "stop_reason": "trainer_complete",
+      "test_rows_used": 0,
+      "wall_duration_seconds": 3896
+    }
+  }
+]

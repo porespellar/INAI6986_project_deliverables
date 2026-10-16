@@ -1,0 +1,41 @@
+{
+  "scope": "Historical corpus audit projection, observed epoch records and per-output development advisory judgments; no protected final prompts/keys.",
+  "files": {
+    "historical_corpus_audit.json": {
+      "shipped_sha256": "2a25b15d3d8f917ca02c3c7100d39f4a3dc6bd72487e3260e0d4e9ad15f0ecbc",
+      "original_source_sha256": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+      "original_source": "artifacts/milestone1/2026-09-17/approved_candidates.jsonl",
+      "projection": "Per-record audit fields; questions, source passages and endpoints omitted. Historical exposed corpus, not fresh final cohort."
+    },
+    "original_control_membership.json": {
+      "shipped_sha256": "4b64d7961e6e11ee79d96079da96ccc0d397071c82056e82bf155da3f04acb4c",
+      "original_source_sha256": "a1deb52304d7bce939593a228836debe2359488159e6e3b112e9d48ac7bea55c",
+      "original_source": "data/curated/student-authored-control-set-2026-09-22.jsonl",
+      "projection": "Membership/provenance only; no control questions or keys."
+    },
+    "gemma_muse_epochs.json": {
+      "shipped_sha256": "de01b11eafbb8f2e1d366bf1d2adc429e6d254ed084068c07f50029c17164def",
+      "original_source_sha256": "4ca865775ad0b86c5c55e0fac1c3f2383f73ba968b8c0d43c5729c20e37df42c",
+      "original_source": "artifacts/model_comparison/2026-09-25/results.jsonl",
+      "projection": "Per-epoch metrics, run and data identity; private paths scrubbed."
+    },
+    "architecture_epochs.json": {
+      "shipped_sha256": "e9c0d5d7047f7e0581739ea48bb62e70cc4650bfc5a6870c45aa3562f3b74e67",
+      "original_source_sha256": "e9c0d5d7047f7e0581739ea48bb62e70cc4650bfc5a6870c45aa3562f3b74e67",
+      "original_source": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/architecture-clean-run-matrix.json",
+      "projection": "Recorded eight-run matrix; private paths scrubbed. Does not reload weights."
+    },
+    "development_outcomes.json": {
+      "shipped_sha256": "eb8edb94a80c75720797e3476218020dbff4e0576bb6bfe7ee12d7f6304c6954",
+      "original_source_sha256": "38ebb4e21e32910612354470af839018ae96d3046f9fe799b5c463f855b3587f",
+      "original_source": "artifacts/milestone2_completion/development/shortlist_v1/verification/development_v2_counted_outcomes_20261008.jsonl",
+      "projection": "Every counted output identity, outcome and advisory dimensions; judgment-directory path omitted. No prompt/answer text."
+    },
+    "evidence_snapshot.json": {
+      "shipped_sha256": "f0c66d60b669e1d26804ddc85802a66ea76f79289feb97c2d667a2f4ce790d1f",
+      "original_source_sha256": "f0c66d60b669e1d26804ddc85802a66ea76f79289feb97c2d667a2f4ce790d1f",
+      "original_source": "artifacts/milestone2_completion/class_package_20261016/evidence_snapshot_20261016.json",
+      "projection": "Reviewed aggregate receipt snapshot; no new human judgments."
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schema": "inai6986-evidence-snapshot/1.1",
+  "captured_at_Central": "2026-10-16T15:03:32-05:00",
+  "captured_shell_date_Central": "2026-10-16 15:03:32 CDT",
+  "prepared_by": "Hermes Agent: Luna draft assembly; GPT-6.1 Sol personal evidence review and correction; local Qwen support in prior assembly",
+  "purpose": "Single verified-evidence snapshot shared by Milestone 2 and Progress Log 2 documents. Records checked receipts only; no final evaluation has been run.",
+  "final_evaluation_status": "NOT RUN - final measurement gates remain open; documents built on this snapshot must not report final metrics",
+  "receipts_sha256": {
+    "advisory_v2_verified": "e1a6ceaa8479d91c678f6e7716dbab97c5260f4b1c7848b2274461b2818f9377",
+    "counted_outcomes_jsonl": "38ebb4e21e32910612354470af839018ae96d3046f9fe799b5c463f855b3587f",
+    "batch_a_receipt": "4d545642768617ad2e5d5e63ea324abec47bd04fe2ccaf6473e6e3d260e3107c",
+    "batch_b_rev11_verification": "280443347126926846309a3054d20b9946368bce0d0879b48418a4bee51e482d",
+    "refinement_actual_execution": "699074daf3224c2bdcb52b057e957252069558c93072d4153a60bb5c8eb832cb",
+    "recovery_operation_receipt": "27b4e0e76327c11f155de368dabd57dba6f18fdc5b4381fb3e27689a2bdbd007",
+    "recovery_integration_receipt": "38cb53ab517f728fc0507da3603af34d842f2eeff3a80e89c2fa96bcdce460ba",
+    "integration_blocked_precondition": "c2b543fd4fd8c0b9c2230cf79667884913fca164cc028039c7468b50df7f9f92",
+    "exposure_audit_detail": "0c287cf57da79e5debb78f3e4b05e00699b239be026a89963e0461a19bd0354e",
+    "harness_implementation_report": "db4987e9978ed75241111787ef6037826762a6a4967c9329818eb8be37e924cf",
+    "user_decisions_20261014": "37510c446490426d0f540c0ee6a2ee72c2cf40e53d7e860ee55083071e6b35af"
+  },
+  "advisory_v2": {
+    "as_of_receipt": "2026-10-08",
+    "machine_advisory_only": true,
+    "judge_model": "qwen3.8-flash-next-nvfp4",
+    "primary_definition": "Answered AND Correct AND Supported AND Noneunsupported /24slotspercondition",
+    "human_scored": false,
+    "winner": null,
+    "totals": {
+      "slots": 192,
+      "accepted_judgments": 150,
+      "request_attempts": 150,
+      "budget_failures": 19,
+      "parser_failures": 23,
+      "unresolved": 0,
+      "answer_successes": 17,
+      "abstentions": 48
+    },
+    "total_slots": 192,
+    "fully_supported_answers": 17,
+    "abstained": 48,
+    "generation_failures": 19,
+    "parser_failures": 23,
+    "per_family_condition": {
+      "nemo": {
+        "base": {
+          "denominator": 24,
+          "numerator": 4,
+          "completed_judgments": 24,
+          "generation_failures": 0,
+          "parser_failures": 0,
+          "safe_abstentions": 0,
+          "unknown": 0,
+          "scored_substantive_answer_count": 21,
+          "outcome_abstained": 3
+        },
+        "adapter": {
+          "denominator": 24,
+          "numerator": 4,
+          "completed_judgments": 24,
+          "generation_failures": 0,
+          "parser_failures": 0,
+          "safe_abstentions": 0,
+          "unknown": 0,
+          "scored_substantive_answer_count": 24,
+          "outcome_abstained": 0
+        }
+      },
+      "gemma": {
+        "base": {
+          "denominator": 24,
+          "numerator": 0,
+          "completed_judgments": 24,
+          "generation_failures": 0,
+          "parser_failures": 0,
+          "safe_abstentions": 1,
+          "unknown": 12,
+          "scored_substantive_answer_count": 10,
+          "outcome_abstained": 14
+        },
+        "adapter": {
+          "denominator": 24,
+          "numerator": 4,
+          "completed_judgments": 23,
+          "generation_failures": 1,
+          "parser_failures": 0,
+          "safe_abstentions": 0,
+          "unknown": 0,
+          "scored_substantive_answer_count": 23,
+          "outcome_abstained": 0
+        }
+      },
+      "ornith": {
+        "base": {
+          "denominator": 24,
+          "numerator": 1,
+          "completed_judgments": 24,
+          "generation_failures": 0,
+          "parser_failures": 0,
+          "safe_abstentions": 15,
+          "unknown": 23,
+          "scored_substantive_answer_count": 1,
+          "outcome_abstained": 23
+        },
+        "adapter": {
+          "denominator": 24,
+          "numerator": 4,
+          "completed_judgments": 23,
+          "generation_failures": 1,
+          "parser_failures": 0,
+          "safe_abstentions": 0,
+          "unknown": 0,
+          "scored_substantive_answer_count": 23,
+          "outcome_abstained": 0
+        }
+      },
+      "muse": {
+        "base": {
+          "denominator": 24,
+          "numerator": 0,
+          "completed_judgments": 8,
+          "generation_failures": 16,
+          "parser_failures": 0,
+          "safe_abstentions": 0,
+          "unknown": 6,
+          "scored_substantive_answer_count": 0,
+          "outcome_abstained": 8
+        },
+        "adapter": {
+          "denominator": 24,
+          "numerator": 0,
+          "completed_judgments": 0,
+          "generation_failures": 1,
+          "parser_failures": 23,
+          "safe_abstentions": 0,
+          "unknown": 0,
+          "scored_substantive_answer_count": 0,
+          "outcome_abstained": 0
+        }
+      }
+    },
+    "error_category_mix_150_labels": {
+      "Wrong Value": 57,
+      "Abstention Issue": 32,
+      "No Error": 26,
+      "Hallucinated Rule": 26,
+      "Missing Evidence": 1,
+      "Invalid Locator": 8
+    },
+    "nemo_adapter_unsupported_present": 19
+  },
+  "batch_a": {
+    "receipt_received_at_utc": "2026-10-05T20:20:28.446242+00:00",
+    "response_count": 27,
+    "supplementary_qa_count": 9,
+    "identical_to_local_llm": 8,
+    "edited_from_local_llm": 1,
+    "authorship_label": "AI-assisted, student-adopted/edited local-LLM drafts; not independently student-authored.",
+    "pending_flags_retained": 1,
+    "h2011_disposition": "Verify table reading; correct to Daily Max = 4 in a new version (recorded in the feedback response ledger, not re-opened here)",
+    "residual_validation_note": "UNSUP-09 asserts authoritative guidance is absent from static source files; scope inventory alone does not establish that. Source-level factual review remains pending. Other supplementary wording has not been independently factually certified by structural validation."
+  },
+  "batch_b_rev11": {
+    "verified_at_utc": "2026-10-07T14:22:11.109170+00:00",
+    "state": "submitted",
+    "revision": 11,
+    "cards_reviewed": 30,
+    "ratings_count": 180,
+    "submission_sha256": "cd5ab8062c6619946a50d4d595cc1f1a4ac957cb30f223eaa3535370c9b5d8ce",
+    "bundle_sha256": "16f1f6d8bbc3138161711190cbdb2071ca6331f777faf6a24869363708f15927",
+    "correction_present": true,
+    "final_evaluation_authorized_by_this_submission": false
+  },
+  "refinement_oct7": {
+    "verified_at_utc": "2026-10-07T15:05:38.470416+00:00",
+    "expected_outputs": 16,
+    "complete_outputs": 16,
+    "machine_semantic_scoring": "Complete: 32 unique actual local advisory assessments, original/refined 16 each, under frozen prospective rubric; counts and hashes independently verified. Labels remain advisory, not human-validated findings.",
+    "human_scores_created": false,
+    "model_winner_selected": false
+  },
+  "recovery_integration": {
+    "receipt_status": "PASS_FOR_LUNA_EXECUTION_HANDOFF_NOT_FINAL_CAMPAIGN",
+    "finished_Central": "2026-10-16T09:14:09.652861-05:00",
+    "prior_run_keys_retired": 225,
+    "old_admissions_refused": 225,
+    "copied_files_preserved": 226,
+    "actual_model_calls": 0,
+    "operation_sha256": "478d0ddcb1bd22fbb9eee796fc605ab0eb83852ca71d8e05dd00942f8e274c78",
+    "blocked_precondition": null,
+    "earlier_blocker_status": "USER_DECISION_REQUIRED_CHANGED_OFFLINE_TRANSITION_PRECONDITION",
+    "earlier_blocker_disposition": "Superseded by the user-authorized new-epoch recovery and 09:14 integration PASS; not a pending user decision",
+    "source_cli_model_calls": 0,
+    "source_cli_documents": 8,
+    "source_cli_physical_page_packets": 28,
+    "real_store_mutated_by_resume": false,
+    "real_store_mutation_scope": "False refers only to earlier blocked resume; later authorized new-epoch provisioning DID change the operational store",
+    "current_F_tests_passed": 106,
+    "current_U_tests_passed": 44
+  },
+  "exposure_audit": {
+    "prepared_at_local": "2026-10-14T13:30:27-05:00",
+    "documents_audited": 12,
+    "verdict_counts": {
+      "no_project_relative_exposure_evidence": 11,
+      "EXPOSURE_EVIDENCE_REVIEW_REQUIRED": 1
+    },
+    "review_required_item": "ctx-admcode-ch16-pharmacy-20260826",
+    "near_duplicate_exclusion": "dup-alert-20260812-dme-pop-enrollment",
+    "final_source_approval": false
+  },
+  "final_harness": {
+    "reviewed": "SPEC and QUALITY reviews recorded in reviews_20261014 / reviews_resume_20261014",
+    "runtime_code_sha256": "b4c06b7f5a85770af565ac0ac5ecce1f2e6a544851d09c343596ae7649b17467",
+    "report_recorded_at": "2026-10-14T15:35:29.291712-05:00",
+    "final_run_executed": false
+  },
+  "user_decisions_20261014": {
+    "evaluation_input_mode": "Identical official-source passages plus questions for Nemotron N1600 and its matched untouched base; no RAG implementation required",
+    "conditional_final_run_approval": true,
+    "gates_required": [
+      "Independent tool spec review PASS, followed by independent code-quality review PASS",
+      "Representative benchmark and exact source/key verification PASS, including exposure audit against enumerated inventories",
+      "Exact candidate/base assets, immutable benchmark/key hashes, prompt construction, generation settings, metrics and robustness protocol sealed before final inference"
+    ],
+    "additional_student_questions_required": false,
+    "new_benchmark_authorship": "Approved local-model AI-generated/source-verified; never independently student-authored",
+    "personal_hours_progress_log2": 20,
+    "canvas_deadlines_verified": false,
+    "final_human_adjudication_not_waived": true
+  },
+  "feedback_crosswalk": [
+    [
+      "M1-01",
+      "Lookup-only questions",
+      "Preserve all 30 originals; separately authorized reasoning/date/exception/conflict benchmark is not yet created. Local-AI authorship is disclosed; no instructor waiver."
+    ],
+    [
+      "M1-02",
+      "Unsupported questions",
+      "Nine historical supplements received: eight adopted AI drafts, one edited. They are not independent student authorship or a verified fresh unsupported stratum."
+    ],
+    [
+      "M1-03",
+      "Narrow source coverage",
+      "All 30 controls map by URL and hash to historical-test sources; 21/30 on three pages. Wording independence does not imply unseen sources."
+    ],
+    [
+      "M1-04",
+      "Ceiling baseline / URL formatting",
+      "Manual 30/30 is an easy lookup reference; 84 seconds is a retrospective proxy. Current 192-slot advisory results are not final/human accuracy or time savings."
+    ],
+    [
+      "M1-05",
+      "Duplicate-answer leakage",
+      "All 16 groups / 57 records have Batch A human dispositions. Application of versioned remedies to canonical data and selected weights is not evidenced."
+    ],
+    [
+      "M1-06",
+      "Insufficient alternatives",
+      "Four genuine families at four nested sizes; 16 completed runs. Three adapters tie at 4/24 advisory support. Fixed Nemotron400 is a governed candidate, not a winner."
+    ],
+    [
+      "M1-07",
+      "Overlong control appendix",
+      "Two compact source-split tables preserve original wording and show coverage; original detailed evidence remains archived."
+    ],
+    [
+      "M1-08",
+      "Source-column and exposure defects",
+      "Near-duplicate ruling and H2011 Daily Max=4 correction direction received. Do not claim existing weights were repaired. Historical test remains exposed."
+    ],
+    [
+      "M1-09",
+      "Priority before next milestone",
+      "Completed review/refinement work is preserved. Source-only recovery integration passed; fresh benchmark, native parity, seal, final outputs and new human ratings remain missing."
+    ]
+  ],
+  "fresh_benchmark_created": false,
+  "open_gates_before_final_inference": [
+    "Create representative local-AI benchmark and independently verify exact source/keys, including the flagged pharmacy source exposure; source approval remains false",
+    "Prove native runtime admission and exact matched Nemotron checkpoint-400/untouched-base assets and parity",
+    "Seal exact accepted membership, keys, prompt, generation settings, scoring, human sample and robustness perturbation before the one-time final run"
+  ],
+  "open_gates_after_final_inference": [
+    "Collect genuinely required human model-output ratings; original Batch A/B reviews do not cover new outputs",
+    "Recompute final metrics, same-metric robustness and subgroup results from actual rows; execute final analysis notebook"
+  ]
+}

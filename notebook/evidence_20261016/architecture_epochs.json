@@ -1,0 +1,575 @@
+{
+  "acceptance_assertions": {
+    "all_eight_runs_early_stopped": true,
+    "all_eight_runs_trainer_complete": true,
+    "all_runs_have_exact_train_size_and_124_validation_rows": true,
+    "all_selected_and_final_checkpoint_required_files_present": true,
+    "best_adapter_matches_selected_checkpoint": true,
+    "matched_sizes": 4,
+    "remote_local_artifact_sha256_matches_per_run": 28,
+    "shared_validation_identity": true,
+    "test_and_control_rows_used": 0
+  },
+  "code_revision": "bddfc007cf4c42bc1fb4541cdc9f23b9877b525e8adc1dbe235bd97a9b373930",
+  "comparison_policy": "Within-family training/validation token-fit trends may be described. Do not rank factual quality across different tokenizers from token loss/accuracy. Candidate selection and untouched one-time final test remain separate, still-locked gates.",
+  "families": {
+    "nemotron": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16@a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+    "ornith": "ornith-ai/Ornith-1.5-35B-A3B@10fbf86fed7ecee4a061f8b499a618f46001cac1"
+  },
+  "generated_at": "2026-10-01T15:36:52-05:00",
+  "runs": [
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n200-clean-20261001-a",
+      "best_checkpoint": "checkpoint-100",
+      "best_validation_loss": 0.582538366317749,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 150,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab1"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n200-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5859135985374451,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8473031439284684,
+          "step": 50,
+          "train_loss": 0.5402932167053223,
+          "train_scored_tokens": 27126,
+          "train_token_accuracy": 0.8557103885571039
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.582538366317749,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8475338909720219,
+          "step": 100,
+          "train_loss": 0.42319348454475403,
+          "train_scored_tokens": 27126,
+          "train_token_accuracy": 0.8802256138022562
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.5861669778823853,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8482261321026824,
+          "step": 150,
+          "train_loss": 0.38949525356292725,
+          "train_scored_tokens": 27126,
+          "train_token_accuracy": 0.8865295288652952
+        }
+      ],
+      "model_family": "nemotron",
+      "model_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "model_revision": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/nemotron-n200-clean-20261001-a.json",
+      "preflight_train_rows": 200,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "nemotron-n200-clean-20261001-a",
+      "runtime_seconds": 680.3403,
+      "seed": 20260925,
+      "selected_adapter_sha256": "08b18154252b6afb81a47b14f421162b3207ecdae8d30c0448b8b9b6bb53de8b",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "train_size": 200,
+      "training_loss": 0.6236982218424479,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n509-clean-20261001-a",
+      "best_checkpoint": "checkpoint-128",
+      "best_validation_loss": 0.5613608956336975,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 384,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab1"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n509-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5613608956336975,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8524949524084222,
+          "step": 128,
+          "train_loss": 0.4874209761619568,
+          "train_scored_tokens": 70628,
+          "train_token_accuracy": 0.8659313586679503
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5637340545654297,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8530141332564176,
+          "step": 256,
+          "train_loss": 0.36125844717025757,
+          "train_scored_tokens": 70628,
+          "train_token_accuracy": 0.8942770572577448
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6118461489677429,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8483415056244592,
+          "step": 384,
+          "train_loss": 0.24288314580917358,
+          "train_scored_tokens": 70628,
+          "train_token_accuracy": 0.9252137962281248
+        }
+      ],
+      "model_family": "nemotron",
+      "model_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "model_revision": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/nemotron-n509-clean-20261001-a.json",
+      "preflight_train_rows": 509,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "nemotron-n509-clean-20261001-a",
+      "runtime_seconds": 1627.0271,
+      "seed": 20260925,
+      "selected_adapter_sha256": "70146c5fc3529bca9df319509eaa3772ed3c8f73d474dfe8ec3e133e38e46151",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "train_size": 509,
+      "training_loss": 0.544349193572998,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n750-clean-20261001-a",
+      "best_checkpoint": "checkpoint-188",
+      "best_validation_loss": 0.5574465394020081,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 564,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab1"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n750-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5574465394020081,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8523218921257572,
+          "step": 188,
+          "train_loss": 0.47742703557014465,
+          "train_scored_tokens": 105256,
+          "train_token_accuracy": 0.8665919282511211
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5592957139015198,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8537063743870782,
+          "step": 376,
+          "train_loss": 0.357677698135376,
+          "train_scored_tokens": 105256,
+          "train_token_accuracy": 0.8946473360188493
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6059775948524475,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8517450245168734,
+          "step": 564,
+          "train_loss": 0.23633301258087158,
+          "train_scored_tokens": 105256,
+          "train_token_accuracy": 0.9260659724861291
+        }
+      ],
+      "model_family": "nemotron",
+      "model_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "model_revision": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/nemotron-n750-clean-20261001-a.json",
+      "preflight_train_rows": 750,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "nemotron-n750-clean-20261001-a",
+      "runtime_seconds": 2373.6441,
+      "seed": 20260925,
+      "selected_adapter_sha256": "36fd7fffe6536570daadd21702d529b8ad2692178e63e54301c48973fd639a6a",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_size": 750,
+      "training_loss": 0.5373503772924978,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n1600-clean-20261001-a",
+      "best_checkpoint": "checkpoint-400",
+      "best_validation_loss": 0.552717924118042,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 1200,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab1"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/nemotron-n1600-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.552717924118042,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8556100374963945,
+          "step": 400,
+          "train_loss": 0.46710097789764404,
+          "train_scored_tokens": 224733,
+          "train_token_accuracy": 0.8708956851018764
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5548836588859558,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8548601096048457,
+          "step": 800,
+          "train_loss": 0.35091713070869446,
+          "train_scored_tokens": 224733,
+          "train_token_accuracy": 0.8975628857355172
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6001074314117432,
+          "eval_scored_tokens": 17335,
+          "eval_token_accuracy": 0.8515142774733199,
+          "step": 1200,
+          "train_loss": 0.22653138637542725,
+          "train_scored_tokens": 224733,
+          "train_token_accuracy": 0.9298233904233023
+        }
+      ],
+      "model_family": "nemotron",
+      "model_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "model_revision": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/nemotron-n1600-clean-20261001-a.json",
+      "preflight_train_rows": 1600,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "nemotron-n1600-clean-20261001-a",
+      "runtime_seconds": 4984.3507,
+      "seed": 20260925,
+      "selected_adapter_sha256": "4aaca5c564ed518ddbc8cce87f887a61998fd9c4039d4abd7e00185c4dc0a65a",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "train_size": 1600,
+      "training_loss": 0.5077840677897135,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n200-clean-20261001-a",
+      "best_checkpoint": "checkpoint-50",
+      "best_validation_loss": 0.6011208295822144,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 150,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab3"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n200-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.6011208295822144,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8416575033277389,
+          "step": 50,
+          "train_loss": 0.5132367610931396,
+          "train_scored_tokens": 26805,
+          "train_token_accuracy": 0.8605857116209662
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.6028088927268982,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8462295271717113,
+          "step": 100,
+          "train_loss": 0.38546672463417053,
+          "train_scored_tokens": 26805,
+          "train_token_accuracy": 0.8872225331094945
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6184389591217041,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8456507899762717,
+          "step": 150,
+          "train_loss": 0.34544190764427185,
+          "train_scored_tokens": 26805,
+          "train_token_accuracy": 0.8965118448050737
+        }
+      ],
+      "model_family": "ornith",
+      "model_id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "model_revision": "10fbf86fed7ecee4a061f8b499a618f46001cac1",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/ornith-n200-clean-20261001-a.json",
+      "preflight_train_rows": 200,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "ornith-n200-clean-20261001-a",
+      "runtime_seconds": 1236.2006,
+      "seed": 20260925,
+      "selected_adapter_sha256": "8209a34353c78ce9e1001d68f0ac0c0c0a460808cbab0985b91d599a48a945a4",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "011194485538b8f372c2f38968ba8d2016ab73908930875d152aa995f4bbdf59",
+      "train_size": 200,
+      "training_loss": 0.5745440673828125,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n509-clean-20261001-a",
+      "best_checkpoint": "checkpoint-128",
+      "best_validation_loss": 0.5822014808654785,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 384,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab3"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n509-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5822014808654785,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8495862029052608,
+          "step": 128,
+          "train_loss": 0.47498026490211487,
+          "train_scored_tokens": 69820,
+          "train_token_accuracy": 0.8698653680893726
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5828940868377686,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8484866022339256,
+          "step": 256,
+          "train_loss": 0.32718542218208313,
+          "train_scored_tokens": 69820,
+          "train_token_accuracy": 0.9014465769120595
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6390287280082703,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8488917182707333,
+          "step": 384,
+          "train_loss": 0.19447986781597137,
+          "train_scored_tokens": 69820,
+          "train_token_accuracy": 0.935605843597823
+        }
+      ],
+      "model_family": "ornith",
+      "model_id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "model_revision": "10fbf86fed7ecee4a061f8b499a618f46001cac1",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/ornith-n509-clean-20261001-a.json",
+      "preflight_train_rows": 509,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "ornith-n509-clean-20261001-a",
+      "runtime_seconds": 3000.8942,
+      "seed": 20260925,
+      "selected_adapter_sha256": "984356945cf098cc8035b81d7a8b5c8f4a1201476fd86b4130f39c7fb8068c5d",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "0ac62042f9c9524d737b7fbc6b32dd2d687fbc371007d751e9178599675cc6ac",
+      "train_size": 509,
+      "training_loss": 0.5005261103312174,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n750-clean-20261001-a",
+      "best_checkpoint": "checkpoint-188",
+      "best_validation_loss": 0.5809023976325989,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 564,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU1",
+        "host": "amaailab3"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n750-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5809023976325989,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8497598240638926,
+          "step": 188,
+          "train_loss": 0.4683251976966858,
+          "train_scored_tokens": 104069,
+          "train_token_accuracy": 0.869182945930104
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5833677053451538,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.851727530528387,
+          "step": 376,
+          "train_loss": 0.32514631748199463,
+          "train_scored_tokens": 104069,
+          "train_token_accuracy": 0.9016229616888795
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.635516345500946,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8468082643671508,
+          "step": 564,
+          "train_loss": 0.1857219636440277,
+          "train_scored_tokens": 104069,
+          "train_token_accuracy": 0.9392134064899249
+        }
+      ],
+      "model_family": "ornith",
+      "model_id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "model_revision": "10fbf86fed7ecee4a061f8b499a618f46001cac1",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/ornith-n750-clean-20261001-a.json",
+      "preflight_train_rows": 750,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "ornith-n750-clean-20261001-a",
+      "runtime_seconds": 4326.0678,
+      "seed": 20260925,
+      "selected_adapter_sha256": "ebb05c23b39eb12947865536823a43ca106788ad493a74399601267ad92d5d1c",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "757ca09b238f164a0a8a51b9d9f049db7a6113fddc1c363820232a6c7b02141b",
+      "train_size": 750,
+      "training_loss": 0.4933276345543828,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    },
+    {
+      "artifact_archive": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n1600-clean-20261001-a",
+      "best_checkpoint": "checkpoint-400",
+      "best_validation_loss": 0.5626457333564758,
+      "control_rows_used": 0,
+      "early_stopping": {
+        "min_delta": 0.005,
+        "patience": 2,
+        "triggered": true
+      },
+      "global_step": 1200,
+      "hardware": {
+        "gpu": "RTX PRO 6000 Blackwell Max-Q GPU0",
+        "host": "amaailab3"
+      },
+      "integrity_manifest": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-runs/ornith-n1600-clean-20261001-a/integrity-manifest.json",
+      "metrics_by_epoch": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.5626457333564758,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8538109844319695,
+          "step": 400,
+          "train_loss": 0.46126165986061096,
+          "train_scored_tokens": 222040,
+          "train_token_accuracy": 0.8724103765087372
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.5796598196029663,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8546212165055849,
+          "step": 800,
+          "train_loss": 0.30834856629371643,
+          "train_scored_tokens": 222040,
+          "train_token_accuracy": 0.9061970816069177
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 0.6253852844238281,
+          "eval_scored_tokens": 17279,
+          "eval_token_accuracy": 0.8521326465651947,
+          "step": 1200,
+          "train_loss": 0.17962417006492615,
+          "train_scored_tokens": 222040,
+          "train_token_accuracy": 0.9401369122680598
+        }
+      ],
+      "model_family": "ornith",
+      "model_id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "model_revision": "10fbf86fed7ecee4a061f8b499a618f46001cac1",
+      "preflight_evidence": "artifacts/model_comparison/2026-09-25/architecture-training-gates/clean-run-preflights/ornith-n1600-clean-20261001-a.json",
+      "preflight_train_rows": 1600,
+      "preflight_validation_rows": 124,
+      "remote_local_file_hashes_matched": 28,
+      "run_id": "ornith-n1600-clean-20261001-a",
+      "runtime_seconds": 9026.1431,
+      "seed": 20260925,
+      "selected_adapter_sha256": "0c64423c0476adbe3627fd35dd0867bdf3679732886d800c1b575735929fceae",
+      "status": "trainer_complete",
+      "stop_reason": "early_stopping",
+      "test_rows_used": 0,
+      "train_prompt_ids_sha256": "5369274fdbd8f5c3a6306d040db65fe678bff9882928990c8e0520ddd26f7ca7",
+      "train_size": 1600,
+      "training_loss": 0.4735675557454427,
+      "validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+      "validation_rows": 124
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Primary corrected-code clean Nemotron/Ornith nested-size training evidence; excludes superseded failed-run data. Teacher-forced token-level train/validation metrics only. No factual cross-family ranking is implied.",
+  "shared_validation_prompt_ids_sha256": "c1afdc214fc27204873de3f3081da40eebf70be2ad0131572821f6287e0c9a32",
+  "train_sizes": [
+    200,
+    509,
+    750,
+    1600
+  ]
+}
