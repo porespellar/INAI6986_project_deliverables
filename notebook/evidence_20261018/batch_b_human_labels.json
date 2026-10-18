@@ -1,0 +1,272 @@
+[
+  {
+    "output_id": "0b35d55bccccd7f2-p1-01316::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p1-01316::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Wrong Value"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p11-01324::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p11-01324::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p12-01325::adapter",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p12-01325::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Wrong Value"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p15-01327::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p15-01327::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p16-01328::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p16-01328::base",
+    "factual_correctness": "Partly Correct",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p3-01317::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p3-01317::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Wrong Value"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p4-01318::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p4-01318::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p5-01319::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p5-01319::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p6-01320::adapter",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p6-01320::base",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p8-01321::adapter",
+    "factual_correctness": "Partly Correct",
+    "evidence_support": "Partly Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p8-01321::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p9-01322::adapter",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0b35d55bccccd7f2-p9-01322::base",
+    "factual_correctness": "Correct",
+    "evidence_support": "Partly Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p1-01142::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p1-01142::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p2-01143::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p2-01143::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Not Provided",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p3-01144::adapter",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p3-01144::base",
+    "factual_correctness": "Correct",
+    "evidence_support": "Supported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "None",
+    "abstention": "Not Applicable",
+    "error_category": "Invalid Locator"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p5-01145::adapter",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Not Applicable",
+    "error_category": "Hallucinated Rule"
+  },
+  {
+    "output_id": "0cf7f74661264c1c-p5-01145::base",
+    "factual_correctness": "Incorrect",
+    "evidence_support": "Unsupported",
+    "locator_validity": "Invalid",
+    "unsupported_claims": "Present",
+    "abstention": "Failed To Abstain",
+    "error_category": "Hallucinated Rule"
+  }
+]

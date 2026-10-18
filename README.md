@@ -4,7 +4,14 @@ This repository contains identity-protected public copies of Milestone 1 deliver
 
 The author is identified as **J.O.** only. No full personal name, private credentials, API keys, or local account paths are intentionally published. The candidate-data copy replaces local generation endpoint identifiers with redacted values. The official source PDFs are **not committed** because the documents may include published agency contact details; the manifest lists official URLs and fingerprints, and the downloader stores verified copies locally under a Git-ignored directory. A few source-derived records may likewise quote generic public Alabama Medicaid contact addresses or service numbers; these are official program contacts, not private individual contact details.
 
-## Current October 16 Package
+## Current October 18 Package
+
+- `docs/J_O_INAI6986_Milestone1_v5.docx` and `.pdf` — October 18 revised Milestone 1 (8 pages): plain-language rewrite; Wilson 95% intervals and exact paired tests for the 24-question development comparison; the Week 8 human review of the selected candidate; interpretability findings (citation format without grounding, loss of abstention, judge reliability); duplicate-group rulings; response to instructor feedback.
+- `docs/J_O_INAI6986_Milestone2_20261018.docx` and `.pdf` — October 18 Milestone 2 (5 pages) in the assignment template order. **All results are development results on validation questions; the one-time final test has not been run.** Development verdict: threshold not met.
+- `docs/J_O_INAI6986_Log2_20261018.docx` and `.pdf` — Progress Log 2 (Week 8, October 5–11), one page, seven template fields; hours are an estimate.
+- `notebook/current_evidence_replay_20261018.ipynb` — executed record (5 code cells, 0 errors) of the replay that recomputes every development number in the October 18 documents. Inputs and the derived results are in `notebook/evidence_20261018/` (`development_analysis_20261018.json` plus the scrubbed per-output bundle). Re-execution needs the private source-of-record repository; a self-contained public version will follow with the final-test notebook.
+
+## October 16 Package (superseded by the October 18 package)
 
 Personally reviewed by GPT-6.1 Sol against the actual assignment rubrics and recorded instructor feedback. These are evidence-bound development drafts, not a claim of completed final evaluation or a guaranteed grade.
 

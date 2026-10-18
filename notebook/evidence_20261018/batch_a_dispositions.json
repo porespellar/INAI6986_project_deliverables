@@ -1,0 +1,252 @@
+[
+  {
+    "group": "EXACT-GROUP-01",
+    "ruling": "Harmless Shared Value",
+    "members": 8,
+    "splits": {
+      "train": 5,
+      "validation": 2,
+      "test": 1
+    },
+    "member_record_ids": [
+      "ab4e15a919d76022-p1-00107",
+      "ac74fc6f60a70000-p1-00154",
+      "53bbb740f8383f27-p1-00212",
+      "40da7233f00682c0-p1-00252",
+      "b2a475a163c5b3e9-p1-00489",
+      "7c7968019fc160cb-p1-00571",
+      "6834e42e7f9692e7-p1-00579",
+      "61d87699f5a94b77-p1-00746"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-02",
+    "ruling": "Boilerplate Only",
+    "members": 7,
+    "splits": {
+      "test": 1,
+      "validation": 1,
+      "train": 5
+    },
+    "member_record_ids": [
+      "a94fa385bb2dcb10-p16-00960",
+      "0cf7f74661264c1c-p6-01146",
+      "793a05a0151b97f4-p18-01161",
+      "255f6ed633c9414e-p44-01217",
+      "0aa79d024e3e52d2-p16-01387",
+      "a8213cc6fe5e5d8a-p12-01603",
+      "b677a69751635935-p2-01883"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-03",
+    "ruling": "Boilerplate Only",
+    "members": 6,
+    "splits": {
+      "train": 4,
+      "validation": 2
+    },
+    "member_record_ids": [
+      "0de3399ea74d0d6b-p16-01141",
+      "9fc69a57c76db820-p4-01181",
+      "945ab0be1933d150-p34-01483",
+      "3686778d3005095c-p12-01557",
+      "a5be81eadcc9a93f-p41-01760",
+      "30879701f12949eb-p38-01802"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-04",
+    "ruling": "Harmless Shared Value",
+    "members": 5,
+    "splits": {
+      "test": 1,
+      "validation": 1,
+      "train": 3
+    },
+    "member_record_ids": [
+      "3698ba33f2a33970-p1-00124",
+      "6041319ef53009c3-p1-00350",
+      "7837e0e54ddc565a-p1-00468",
+      "20d6140fd94cfefd-p1-00493",
+      "02dab5b9e3325afe-p1-00742"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-05",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 4,
+    "splits": {
+      "train": 3,
+      "test": 1
+    },
+    "member_record_ids": [
+      "4c8101e2587e0df1-p7-01173",
+      "b1fd099ce41ab0d5-p9-01287",
+      "996d5c49588e3b53-p7-01393",
+      "feaa273773a35cba-p10-01575"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-06",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 4,
+    "splits": {
+      "test": 1,
+      "validation": 1,
+      "train": 2
+    },
+    "member_record_ids": [
+      "a867bb07b817967f-p3-00752",
+      "0b35d55bccccd7f2-p17-01329",
+      "b0f817c3d0ed1534-p19-01454",
+      "a4a6a07e90d53941-p4-01968"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-07",
+    "ruling": "Harmless Shared Value",
+    "members": 3,
+    "splits": {
+      "train": 2,
+      "test": 1
+    },
+    "member_record_ids": [
+      "191d5f5048c628ae-p1-00085",
+      "0e773d7a894998ad-p1-00283",
+      "9a4b32a845c3f62b-p1-00500"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-08",
+    "ruling": "Harmless Shared Value",
+    "members": 3,
+    "splits": {
+      "train": 2,
+      "validation": 1
+    },
+    "member_record_ids": [
+      "1449cbd6ab6d0b77-p1-00000",
+      "87c4288fee343690-p1-00477",
+      "945ab0be1933d150-p27-01477"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-09",
+    "ruling": "Harmless Shared Value",
+    "members": 3,
+    "splits": {
+      "validation": 1,
+      "train": 2
+    },
+    "member_record_ids": [
+      "0cf7f74661264c1c-p5-01145",
+      "e63f0b6e6baab398-p12-01613",
+      "f03ead5b68e5bcb0-p8-01619"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-10",
+    "ruling": "Harmless Shared Value",
+    "members": 2,
+    "splits": {
+      "train": 1,
+      "test": 1
+    },
+    "member_record_ids": [
+      "2a55a05a4996d2e8-p1-00217",
+      "feaa273773a35cba-p13-01577"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-11",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 2,
+    "splits": {
+      "train": 1,
+      "test": 1
+    },
+    "member_record_ids": [
+      "19bcfae4ffb0d3cc-p5-00806",
+      "d6e06d0bb8d31e14-p50-01524"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-12",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 2,
+    "splits": {
+      "train": 1,
+      "validation": 1
+    },
+    "member_record_ids": [
+      "907dd9b0849245e3-p7-01314",
+      "0b35d55bccccd7f2-p18-01330"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-13",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 2,
+    "splits": {
+      "test": 1,
+      "train": 1
+    },
+    "member_record_ids": [
+      "5ae3739b160a7cc1-p12-00884",
+      "fa89012f680f87cb-p5-01829"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-14",
+    "ruling": "Boilerplate Only",
+    "members": 2,
+    "splits": {
+      "validation": 1,
+      "train": 1
+    },
+    "member_record_ids": [
+      "a5be81eadcc9a93f-p42-01761",
+      "30879701f12949eb-p9-01778"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-15",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 2,
+    "splits": {
+      "validation": 1,
+      "train": 1
+    },
+    "member_record_ids": [
+      "0b35d55bccccd7f2-p14-01326",
+      "b0f817c3d0ed1534-p15-01451"
+    ]
+  },
+  {
+    "group": "EXACT-GROUP-16",
+    "ruling": "Substantive Overlap—Apply Shown Remedy",
+    "members": 2,
+    "splits": {
+      "test": 1,
+      "train": 1
+    },
+    "member_record_ids": [
+      "ae298affc4b4f44e-p8-00759",
+      "793a05a0151b97f4-p5-01150"
+    ]
+  },
+  {
+    "group": "NEAR-DUPLICATE-ND01",
+    "ruling": "Substantive overlap—apply a versioned split/removal remedy",
+    "members": 2,
+    "splits": {
+      "train": 1,
+      "validation": 1
+    },
+    "member_record_ids": [
+      "685faf08de431654-p23-00523",
+      "0b35d55bccccd7f2-p10-01323"
+    ]
+  }
+]

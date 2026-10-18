@@ -1,0 +1,170 @@
+[
+  {
+    "prompt_id": "0b35d55bccccd7f2-p1-01316",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0b35d55bccccd7f2",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0b35d55bccccd7f2-p11-01324",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0b35d55bccccd7f2",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0b35d55bccccd7f2-p12-01325",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0b35d55bccccd7f2",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0cf7f74661264c1c-p1-01142",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0cf7f74661264c1c",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0cf7f74661264c1c-p2-01143",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0cf7f74661264c1c",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0cf7f74661264c1c-p3-01144",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0cf7f74661264c1c",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "0fedf0e92a0512d5-p1-01920",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "0fedf0e92a0512d5",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "40da7233f00682c0-p1-00252",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "40da7233f00682c0",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "40da7233f00682c0-p2-00253",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "40da7233f00682c0",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "40da7233f00682c0-p3-00254",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "40da7233f00682c0",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "4610161564ff40a6-p1-01811",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "4610161564ff40a6",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "4610161564ff40a6-p11-01819",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "4610161564ff40a6",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "4610161564ff40a6-p12-01820",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "4610161564ff40a6",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "6041319ef53009c3-p1-00350",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "6041319ef53009c3",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "6041319ef53009c3-p2-00351",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "6041319ef53009c3",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "6041319ef53009c3-p3-00352",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "6041319ef53009c3",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "61d87699f5a94b77-p1-00746",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "61d87699f5a94b77",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "61d87699f5a94b77-p2-00747",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "61d87699f5a94b77",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "61d87699f5a94b77-p3-00748",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "61d87699f5a94b77",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "7ab755bb5012a435-p2-00094",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "7ab755bb5012a435",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "7ab755bb5012a435-p3-00095",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "7ab755bb5012a435",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "7ab755bb5012a435-p4-00096",
+    "split": "validation",
+    "doc_family": "Administrative Code",
+    "document_id": "7ab755bb5012a435",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "945ab0be1933d150-p10-01463",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "945ab0be1933d150",
+    "unanswerable": false
+  },
+  {
+    "prompt_id": "945ab0be1933d150-p11-01464",
+    "split": "validation",
+    "doc_family": "Provider Manual",
+    "document_id": "945ab0be1933d150",
+    "unanswerable": false
+  }
+]

@@ -1,0 +1,457 @@
+{
+  "schema": "inai6986-development-analysis/1.0",
+  "derived_by": "docs/engineering/document-builders/derive_development_evidence_20261018.py",
+  "model_calls": 0,
+  "protected_final_material_read": false,
+  "new_human_judgments": 0,
+  "input_sha256": {
+    "counted_outcomes": "38ebb4e21e32910612354470af839018ae96d3046f9fe799b5c463f855b3587f",
+    "corpus": "f0d9324c68e7865f87cb1da3351d059b25ed08d2e08b9548073860ca7c9f702c",
+    "batch_b_submitted": "cd5ab8062c6619946a50d4d595cc1f1a4ac957cb30f223eaa3535370c9b5d8ce",
+    "batch_b_verification": "280443347126926846309a3054d20b9946368bce0d0879b48418a4bee51e482d",
+    "batch_b_judge": "0e5e5bde202060375b4bc41c6d7975ff0fa71a30666f1ff7752b847ab5f1fed0",
+    "batch_b_raw_outputs": "0e87ea54184df9c97fc19482109ef4509b666cb13d0edf2f0abd89f9eb387cae",
+    "batch_b_generation_summary": "856a51aedaaf1b92284cd68ad335820b83f71583f058d24b7cd780e74bb3ae78",
+    "batch_a_saved": "c54e1ee5ef0e2e67ec991340f68c41061f5a8de73c8066d0adc498a0ea074af8",
+    "batch_a_items": "d8b7ddd7d72d049dfde28a149c9f66520413f85671eee24e63cf44199869c43b"
+  },
+  "probe": {
+    "questions": 24,
+    "split": "validation",
+    "documents": 9,
+    "doc_families": {
+      "Provider Manual": 12,
+      "Administrative Code": 12
+    },
+    "input_mode": "question only; no source passage",
+    "judge": "qwen3.8-flash-next-nvfp4 (advisory v2)",
+    "primary_proxy": "answered AND correct AND supported AND no unsupported claims"
+  },
+  "comparison": [
+    {
+      "family": "Nemotron",
+      "condition": "base",
+      "slots": 24,
+      "fully_supported": 4,
+      "wilson95": [
+        0.067,
+        0.359
+      ],
+      "judged": 24,
+      "answered": 21,
+      "abstained": 3,
+      "unsupported_claims_present": 17,
+      "budget_failures": 0,
+      "parser_failures": 0
+    },
+    {
+      "family": "Nemotron",
+      "condition": "adapter",
+      "slots": 24,
+      "fully_supported": 4,
+      "wilson95": [
+        0.067,
+        0.359
+      ],
+      "judged": 24,
+      "answered": 24,
+      "abstained": 0,
+      "unsupported_claims_present": 19,
+      "budget_failures": 0,
+      "parser_failures": 0
+    },
+    {
+      "family": "Gemma",
+      "condition": "base",
+      "slots": 24,
+      "fully_supported": 0,
+      "wilson95": [
+        0.0,
+        0.138
+      ],
+      "judged": 24,
+      "answered": 10,
+      "abstained": 14,
+      "unsupported_claims_present": 10,
+      "budget_failures": 0,
+      "parser_failures": 0
+    },
+    {
+      "family": "Gemma",
+      "condition": "adapter",
+      "slots": 24,
+      "fully_supported": 4,
+      "wilson95": [
+        0.067,
+        0.359
+      ],
+      "judged": 23,
+      "answered": 23,
+      "abstained": 0,
+      "unsupported_claims_present": 18,
+      "budget_failures": 1,
+      "parser_failures": 0
+    },
+    {
+      "family": "Ornith",
+      "condition": "base",
+      "slots": 24,
+      "fully_supported": 1,
+      "wilson95": [
+        0.007,
+        0.202
+      ],
+      "judged": 24,
+      "answered": 1,
+      "abstained": 23,
+      "unsupported_claims_present": 0,
+      "budget_failures": 0,
+      "parser_failures": 0
+    },
+    {
+      "family": "Ornith",
+      "condition": "adapter",
+      "slots": 24,
+      "fully_supported": 4,
+      "wilson95": [
+        0.067,
+        0.359
+      ],
+      "judged": 23,
+      "answered": 23,
+      "abstained": 0,
+      "unsupported_claims_present": 18,
+      "budget_failures": 1,
+      "parser_failures": 0
+    },
+    {
+      "family": "Muse",
+      "condition": "base",
+      "slots": 24,
+      "fully_supported": 0,
+      "wilson95": [
+        0.0,
+        0.138
+      ],
+      "judged": 8,
+      "answered": 0,
+      "abstained": 8,
+      "unsupported_claims_present": 0,
+      "budget_failures": 16,
+      "parser_failures": 0
+    },
+    {
+      "family": "Muse",
+      "condition": "adapter",
+      "slots": 24,
+      "fully_supported": 0,
+      "wilson95": [
+        0.0,
+        0.138
+      ],
+      "judged": 0,
+      "answered": 0,
+      "abstained": 0,
+      "unsupported_claims_present": 0,
+      "budget_failures": 1,
+      "parser_failures": 23
+    }
+  ],
+  "paired_base_vs_adapter": {
+    "Nemotron": {
+      "adapter_only_pass": 1,
+      "base_only_pass": 1,
+      "exact_mcnemar_p": 1.0
+    },
+    "Gemma": {
+      "adapter_only_pass": 4,
+      "base_only_pass": 0,
+      "exact_mcnemar_p": 0.125
+    },
+    "Ornith": {
+      "adapter_only_pass": 4,
+      "base_only_pass": 1,
+      "exact_mcnemar_p": 0.375
+    },
+    "Muse": {
+      "adapter_only_pass": 0,
+      "base_only_pass": 0,
+      "exact_mcnemar_p": 1.0
+    }
+  },
+  "subgroup_doc_family": [
+    {
+      "family": "Nemotron",
+      "condition": "base",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 2,
+      "unsupported_claims_present": 9,
+      "abstained": 1
+    },
+    {
+      "family": "Nemotron",
+      "condition": "base",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 2,
+      "unsupported_claims_present": 8,
+      "abstained": 2
+    },
+    {
+      "family": "Nemotron",
+      "condition": "adapter",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 1,
+      "unsupported_claims_present": 11,
+      "abstained": 0
+    },
+    {
+      "family": "Nemotron",
+      "condition": "adapter",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 3,
+      "unsupported_claims_present": 8,
+      "abstained": 0
+    },
+    {
+      "family": "Gemma",
+      "condition": "base",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 0,
+      "unsupported_claims_present": 6,
+      "abstained": 6
+    },
+    {
+      "family": "Gemma",
+      "condition": "base",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 0,
+      "unsupported_claims_present": 4,
+      "abstained": 8
+    },
+    {
+      "family": "Gemma",
+      "condition": "adapter",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 3,
+      "unsupported_claims_present": 7,
+      "abstained": 0
+    },
+    {
+      "family": "Gemma",
+      "condition": "adapter",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 1,
+      "unsupported_claims_present": 11,
+      "abstained": 0
+    },
+    {
+      "family": "Ornith",
+      "condition": "base",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 1,
+      "unsupported_claims_present": 0,
+      "abstained": 11
+    },
+    {
+      "family": "Ornith",
+      "condition": "base",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 0,
+      "unsupported_claims_present": 0,
+      "abstained": 12
+    },
+    {
+      "family": "Ornith",
+      "condition": "adapter",
+      "doc_family": "Administrative Code",
+      "slots": 12,
+      "fully_supported": 1,
+      "unsupported_claims_present": 10,
+      "abstained": 0
+    },
+    {
+      "family": "Ornith",
+      "condition": "adapter",
+      "doc_family": "Provider Manual",
+      "slots": 12,
+      "fully_supported": 3,
+      "unsupported_claims_present": 8,
+      "abstained": 0
+    }
+  ],
+  "advisory_error_mix": {
+    "Nemotron base": {
+      "Wrong Value": 6,
+      "Hallucinated Rule": 11,
+      "No Error": 4,
+      "Abstention Issue": 3
+    },
+    "Nemotron adapter": {
+      "Wrong Value": 15,
+      "No Error": 2,
+      "Hallucinated Rule": 4,
+      "Invalid Locator": 2,
+      "Missing Evidence": 1
+    },
+    "Gemma base": {
+      "Abstention Issue": 13,
+      "Hallucinated Rule": 7,
+      "Wrong Value": 3,
+      "No Error": 1
+    },
+    "Gemma adapter": {
+      "Wrong Value": 17,
+      "Invalid Locator": 3,
+      "No Error": 2,
+      "Hallucinated Rule": 1
+    },
+    "Ornith base": {
+      "Abstention Issue": 8,
+      "No Error": 16
+    },
+    "Ornith adapter": {
+      "Wrong Value": 16,
+      "Hallucinated Rule": 3,
+      "Invalid Locator": 3,
+      "No Error": 1
+    },
+    "Muse base": {
+      "Abstention Issue": 8
+    },
+    "Muse adapter": {},
+    "all_150": {
+      "Wrong Value": 57,
+      "Abstention Issue": 32,
+      "No Error": 26,
+      "Hallucinated Rule": 26,
+      "Missing Evidence": 1,
+      "Invalid Locator": 8
+    }
+  },
+  "human_review_nemotron": {
+    "base": {
+      "items": 15,
+      "strict_correct_supported_no_unsupported": 2,
+      "wilson95": [
+        0.037,
+        0.379
+      ],
+      "factually_correct": 3,
+      "unsupported_claims_present": 12,
+      "locator_valid": 0,
+      "locator_provided": 9,
+      "failed_to_abstain": 10,
+      "error_categories": {
+        "Wrong Value": 3,
+        "Hallucinated Rule": 9,
+        "Invalid Locator": 3
+      }
+    },
+    "adapter": {
+      "items": 15,
+      "strict_correct_supported_no_unsupported": 4,
+      "wilson95": [
+        0.109,
+        0.52
+      ],
+      "factually_correct": 4,
+      "unsupported_claims_present": 11,
+      "locator_valid": 0,
+      "locator_provided": 15,
+      "failed_to_abstain": 6,
+      "error_categories": {
+        "Hallucinated Rule": 10,
+        "Invalid Locator": 5
+      }
+    },
+    "paired": {
+      "adapter_only": 2,
+      "base_only": 0,
+      "exact_mcnemar_p": 0.5
+    },
+    "doc_families": {
+      "Provider Manual": 15
+    },
+    "review_mode": "AI-assisted human review — not independent blind scoring",
+    "ratings_matching_visible_ai_advice": 180,
+    "ratings_total": 180
+  },
+  "judge_reliability_check": {
+    "overlap_items": 6,
+    "outputs": 12,
+    "agreement": {
+      "factual_correctness": {
+        "agree": 12,
+        "of": 12
+      },
+      "evidence_support": {
+        "agree": 12,
+        "of": 12
+      },
+      "locator_validity": {
+        "agree": 3,
+        "of": 12
+      },
+      "unsupported_claims": {
+        "agree": 12,
+        "of": 12
+      },
+      "abstention": {
+        "agree": 9,
+        "of": 12
+      },
+      "error_category": {
+        "agree": 6,
+        "of": 12
+      },
+      "strict_primary": {
+        "agree": 12,
+        "of": 12
+      }
+    }
+  },
+  "latency_nemotron_batch_b": {
+    "base": {
+      "outputs": 30,
+      "median_seconds": 2.56,
+      "p90_seconds": 6.06,
+      "max_seconds": 8.46,
+      "median_completion_tokens": 109
+    },
+    "adapter": {
+      "outputs": 30,
+      "median_seconds": 2.86,
+      "p90_seconds": 3.41,
+      "max_seconds": 4.1,
+      "median_completion_tokens": 104
+    }
+  },
+  "batch_a_dispositions": {
+    "group_rulings": {
+      "Harmless Shared Value": 6,
+      "Boilerplate Only": 3,
+      "Substantive Overlap—Apply Shown Remedy": 7
+    },
+    "substantive_groups": 7,
+    "substantive_records_including_near_duplicate_pair": 20,
+    "substantive_records_by_split": {
+      "train": 11,
+      "test": 5,
+      "validation": 4
+    },
+    "probe_items_in_substantive_groups": [],
+    "human_reviewed_items_in_substantive_groups": [],
+    "probe_items_in_any_group": 3,
+    "human_reviewed_items_in_any_group": 1
+  }
+}

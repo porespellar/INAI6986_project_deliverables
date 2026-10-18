@@ -1,0 +1,35 @@
+{
+  "scope": "October 18 replay inputs: identifiers, splits, labels and timings only. No question, answer, source-passage or model-output text. No protected final material.",
+  "files": {
+    "development_outcomes.json": {
+      "shipped_sha256": "eb8edb94a80c75720797e3476218020dbff4e0576bb6bfe7ee12d7f6304c6954",
+      "original_source": "notebook/evidence_20261016/development_outcomes.json",
+      "projection": "Unchanged copy of the October 16 projection (192 counted outputs, advisory labels)."
+    },
+    "probe_items.json": {
+      "shipped_sha256": "8b60120e351e13e981ef9f162446e640f6eaafe71a7c13be3b93523af1003a77",
+      "original_source": "artifacts/milestone1/2026-09-17/approved_candidates.jsonl",
+      "projection": "Split, document family and document id of the 24 probe questions."
+    },
+    "batch_b_human_labels.json": {
+      "shipped_sha256": "bfb04fa92b3ee6af513474cb41d70789b2915094b5b79b5197d807d2835339c7",
+      "original_source": "artifacts/milestone2_completion/review/batch_b/verification/submitted_revision_000011/Batch_B_Submitted_Answers.json",
+      "projection": "Six submitted label values per reviewed output; no text or comments."
+    },
+    "batch_b_visible_advice.json": {
+      "shipped_sha256": "bfb04fa92b3ee6af513474cb41d70789b2915094b5b79b5197d807d2835339c7",
+      "original_source": "artifacts/milestone2_completion/development/batch_b/judge_assessments.json",
+      "projection": "Advice labels shown to the reviewer; rationales omitted."
+    },
+    "batch_b_runtime.json": {
+      "shipped_sha256": "f5c22b93e0c93e961da97fcf2c501fdb2a4053a99fa99cf6d780db9c5e7054df",
+      "original_source": "artifacts/milestone2_completion/development/batch_b/raw_outputs.jsonl",
+      "projection": "Timing fields only; output text omitted."
+    },
+    "batch_a_dispositions.json": {
+      "shipped_sha256": "d10cc146b49a46a2135c42f23b40e597224df75eefbd1297f935a51d1f57af89",
+      "original_source": "artifacts/milestone2_completion/review/responses/exports/Batch_A_Saved_Answers_c54e1ee5ef0e.json",
+      "projection": "Duplicate-group rulings and member ids/splits; supplementary question items excluded."
+    }
+  }
+}
