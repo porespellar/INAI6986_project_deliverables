@@ -1,0 +1,13 @@
+{
+  "snapshot_date": "2026-10-20",
+  "created_at": "2026-10-20T10:25:48.632891-05:00",
+  "provider_session_cookie": "ASP.NET_SessionId",
+  "expected_files": 138,
+  "completed_files": 138,
+  "errors": [],
+  "pages": 2433,
+  "bytes": 36803307,
+  "extracted_chars": 8130299,
+  "empty_or_near_empty_pages": 140,
+  "root": "."
+}
