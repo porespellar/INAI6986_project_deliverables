@@ -40,7 +40,7 @@ nb.cells = [
         "    vals = fresh[key]\n    print(label + ':', ', '.join('{} {}/{} ({:.1f}%)'.format(c,vals[c]['k'],vals[c]['n'],vals[c]['pct']) for c in ('base','adapter')))\n"
         "print('PM thresholds met:', fresh['pm_thresholds'])\n"
         "print('Judge agreement counts:', json.dumps(fresh['judge_agreement'], sort_keys=True))\n"
-        "print('Human review: main outputs reviewed =', fresh['andy_review']['main_outputs_reviewed'], '; cut disagreements reviewed =', fresh['andy_review']['cut_disagreements_reviewed'], '; flags =', fresh['andy_review']['flags'])\n"
+        "print('Human review: main outputs reviewed =', fresh['user_review']['main_outputs_reviewed'], '; cut disagreements reviewed =', fresh['user_review']['cut_disagreements_reviewed'], '; flags =', fresh['user_review']['flags'])\n"
         "assert (P['base']['k'], P['adapter']['k']) == (114,111)\n"
         "assert all(v is False for v in fresh['pm_thresholds'].values())"),
 ]

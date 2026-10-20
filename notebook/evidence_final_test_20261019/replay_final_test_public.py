@@ -96,9 +96,9 @@ def replay():
         agreement[run]={'rows':len(part),'judges_differ_on_any_field':len(diff),
             'strict_pass_agree':sum(r['A_pass']==r['B_pass'] for r in part),
             'A_strict_pass':sum(r['A_pass'] for r in part),'B_strict_pass':sum(r['B_pass'] for r in part),
-            'andy_chose_A':sum(r['author_choice']=='A' for r in diff),'andy_chose_B':sum(r['author_choice']=='B' for r in diff)}
+            'user_chose_A':sum(r['author_choice']=='A' for r in diff),'user_chose_B':sum(r['author_choice']=='B' for r in diff)}
     result['judge_agreement']=agreement
-    result['andy_review']={'flags':0,'calls':sum(v['judges_differ_on_any_field'] for v in agreement.values()),
+    result['user_review']={'flags':0,'calls':sum(v['judges_differ_on_any_field'] for v in agreement.values()),
         'ratings_changed_by_flag':0,'review_scope':'All 300 main-run outputs; all 17 cut-run judge disagreements',
         'main_outputs_reviewed':300,'cut_disagreements_reviewed':agreement['cut60']['judges_differ_on_any_field']}
     lat={}

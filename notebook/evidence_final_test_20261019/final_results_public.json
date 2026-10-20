@@ -368,8 +368,8 @@
       "strict_pass_agree": 292,
       "A_strict_pass": 253,
       "B_strict_pass": 255,
-      "andy_chose_A": 5,
-      "andy_chose_B": 4
+      "user_chose_A": 5,
+      "user_chose_B": 4
     },
     "cut60": {
       "rows": 300,
@@ -377,11 +377,11 @@
       "strict_pass_agree": 291,
       "A_strict_pass": 181,
       "B_strict_pass": 180,
-      "andy_chose_A": 12,
-      "andy_chose_B": 5
+      "user_chose_A": 12,
+      "user_chose_B": 5
     }
   },
-  "andy_review": {
+  "user_review": {
     "flags": 0,
     "calls": 26,
     "ratings_changed_by_flag": 0,
