@@ -1,0 +1,461 @@
+{
+  "conditions": [
+    "base",
+    "adapter"
+  ],
+  "primary_answerable_main": {
+    "base": {
+      "k": 114,
+      "n": 120,
+      "pct": 95.0,
+      "wilson95": [
+        89.5,
+        97.7
+      ]
+    },
+    "adapter": {
+      "k": 111,
+      "n": 120,
+      "pct": 92.5,
+      "wilson95": [
+        86.4,
+        96.0
+      ]
+    },
+    "diff_points": -2.5,
+    "mcnemar": {
+      "base_only_pass": 6,
+      "adapter_only_pass": 3,
+      "exact_two_sided_p": 0.507812
+    }
+  },
+  "unsupported_claim_main": {
+    "base": {
+      "k": 6,
+      "n": 150,
+      "pct": 4.0,
+      "wilson95": [
+        1.8,
+        8.5
+      ]
+    },
+    "adapter": {
+      "k": 25,
+      "n": 150,
+      "pct": 16.7,
+      "wilson95": [
+        11.6,
+        23.4
+      ]
+    }
+  },
+  "citation_correctness_main": {
+    "base": {
+      "k": 2,
+      "n": 120,
+      "pct": 1.7,
+      "wilson95": [
+        0.5,
+        5.9
+      ],
+      "breakdown": {
+        "no_citation": 116,
+        "correct": 2,
+        "incorrect": 2
+      }
+    },
+    "adapter": {
+      "k": 11,
+      "n": 120,
+      "pct": 9.2,
+      "wilson95": [
+        5.2,
+        15.7
+      ],
+      "breakdown": {
+        "no_citation": 107,
+        "correct": 11,
+        "incorrect": 2
+      }
+    }
+  },
+  "correct_abstention_main": {
+    "base": {
+      "k": 24,
+      "n": 30,
+      "pct": 80.0,
+      "wilson95": [
+        62.7,
+        90.5
+      ]
+    },
+    "adapter": {
+      "k": 2,
+      "n": 30,
+      "pct": 6.7,
+      "wilson95": [
+        1.8,
+        21.3
+      ]
+    }
+  },
+  "robustness": {
+    "base": {
+      "survives_main": {
+        "k": 62,
+        "n": 66,
+        "pct": 93.9,
+        "wilson95": [
+          85.4,
+          97.6
+        ]
+      },
+      "survives_cut": {
+        "k": 64,
+        "n": 66,
+        "pct": 97.0,
+        "wilson95": [
+          89.6,
+          99.2
+        ]
+      },
+      "survives_change_points": 3.1,
+      "evidence_removed_correct_abstention_cut": {
+        "k": 23,
+        "n": 54,
+        "pct": 42.6,
+        "wilson95": [
+          30.3,
+          55.8
+        ]
+      },
+      "unanswerable_cut": {
+        "k": 25,
+        "n": 30,
+        "pct": 83.3,
+        "wilson95": [
+          66.4,
+          92.7
+        ]
+      }
+    },
+    "adapter": {
+      "survives_main": {
+        "k": 59,
+        "n": 66,
+        "pct": 89.4,
+        "wilson95": [
+          79.7,
+          94.8
+        ]
+      },
+      "survives_cut": {
+        "k": 62,
+        "n": 66,
+        "pct": 93.9,
+        "wilson95": [
+          85.4,
+          97.6
+        ]
+      },
+      "survives_change_points": 4.5,
+      "evidence_removed_correct_abstention_cut": {
+        "k": 0,
+        "n": 54,
+        "pct": 0.0,
+        "wilson95": [
+          0.0,
+          6.6
+        ]
+      },
+      "unanswerable_cut": {
+        "k": 2,
+        "n": 30,
+        "pct": 6.7,
+        "wilson95": [
+          1.8,
+          21.3
+        ]
+      }
+    }
+  },
+  "subgroups_main_answerable": {
+    "family:admin_code_2026": {
+      "base": {
+        "k": 38,
+        "n": 40,
+        "pct": 95.0,
+        "wilson95": [
+          83.5,
+          98.6
+        ]
+      },
+      "adapter": {
+        "k": 38,
+        "n": 40,
+        "pct": 95.0,
+        "wilson95": [
+          83.5,
+          98.6
+        ]
+      }
+    },
+    "family:dme_pa_checklist": {
+      "base": {
+        "k": 8,
+        "n": 8,
+        "pct": 100.0,
+        "wilson95": [
+          67.6,
+          100.0
+        ]
+      },
+      "adapter": {
+        "k": 8,
+        "n": 8,
+        "pct": 100.0,
+        "wilson95": [
+          67.6,
+          100.0
+        ]
+      }
+    },
+    "family:hcbs_waiver_2026": {
+      "base": {
+        "k": 38,
+        "n": 40,
+        "pct": 95.0,
+        "wilson95": [
+          83.5,
+          98.6
+        ]
+      },
+      "adapter": {
+        "k": 37,
+        "n": 40,
+        "pct": 92.5,
+        "wilson95": [
+          80.1,
+          97.4
+        ]
+      }
+    },
+    "family:proposed_rule_2026": {
+      "base": {
+        "k": 6,
+        "n": 6,
+        "pct": 100.0,
+        "wilson95": [
+          61.0,
+          100.0
+        ]
+      },
+      "adapter": {
+        "k": 6,
+        "n": 6,
+        "pct": 100.0,
+        "wilson95": [
+          61.0,
+          100.0
+        ]
+      }
+    },
+    "family:provider_alert_2026": {
+      "base": {
+        "k": 24,
+        "n": 26,
+        "pct": 92.3,
+        "wilson95": [
+          75.9,
+          97.9
+        ]
+      },
+      "adapter": {
+        "k": 22,
+        "n": 26,
+        "pct": 84.6,
+        "wilson95": [
+          66.5,
+          93.9
+        ]
+      }
+    },
+    "question_type:date_edition": {
+      "base": {
+        "k": 30,
+        "n": 30,
+        "pct": 100.0,
+        "wilson95": [
+          88.6,
+          100.0
+        ]
+      },
+      "adapter": {
+        "k": 30,
+        "n": 30,
+        "pct": 100.0,
+        "wilson95": [
+          88.6,
+          100.0
+        ]
+      }
+    },
+    "question_type:exception": {
+      "base": {
+        "k": 20,
+        "n": 22,
+        "pct": 90.9,
+        "wilson95": [
+          72.2,
+          97.5
+        ]
+      },
+      "adapter": {
+        "k": 20,
+        "n": 22,
+        "pct": 90.9,
+        "wilson95": [
+          72.2,
+          97.5
+        ]
+      }
+    },
+    "question_type:multi_rule": {
+      "base": {
+        "k": 27,
+        "n": 30,
+        "pct": 90.0,
+        "wilson95": [
+          74.4,
+          96.5
+        ]
+      },
+      "adapter": {
+        "k": 25,
+        "n": 30,
+        "pct": 83.3,
+        "wilson95": [
+          66.4,
+          92.7
+        ]
+      }
+    },
+    "question_type:value_lookup": {
+      "base": {
+        "k": 37,
+        "n": 38,
+        "pct": 97.4,
+        "wilson95": [
+          86.5,
+          99.5
+        ]
+      },
+      "adapter": {
+        "k": 36,
+        "n": 38,
+        "pct": 94.7,
+        "wilson95": [
+          82.7,
+          98.5
+        ]
+      }
+    }
+  },
+  "judge_agreement": {
+    "main": {
+      "rows": 300,
+      "judges_differ_on_any_field": 9,
+      "strict_pass_agree": 292,
+      "A_strict_pass": 253,
+      "B_strict_pass": 255,
+      "andy_chose_A": 5,
+      "andy_chose_B": 4
+    },
+    "cut60": {
+      "rows": 300,
+      "judges_differ_on_any_field": 17,
+      "strict_pass_agree": 291,
+      "A_strict_pass": 181,
+      "B_strict_pass": 180,
+      "andy_chose_A": 12,
+      "andy_chose_B": 5
+    }
+  },
+  "andy_review": {
+    "flags": 0,
+    "calls": 26,
+    "ratings_changed_by_flag": 0,
+    "review_scope": "All 300 main-run outputs; all 17 cut-run judge disagreements",
+    "main_outputs_reviewed": 300,
+    "cut_disagreements_reviewed": 17
+  },
+  "latency": {
+    "full:base": {
+      "median_s": 0.81,
+      "p90_s": 1.72,
+      "mean_tokens": 29.5,
+      "truncated": 0
+    },
+    "full:adapter": {
+      "median_s": 1.1,
+      "p90_s": 3.18,
+      "mean_tokens": 42.7,
+      "truncated": 0
+    },
+    "cut60:base": {
+      "median_s": 1.01,
+      "p90_s": 4.21,
+      "mean_tokens": 64.3,
+      "truncated": 0
+    },
+    "cut60:adapter": {
+      "median_s": 1.82,
+      "p90_s": 5.33,
+      "mean_tokens": 92.4,
+      "truncated": 6
+    }
+  },
+  "error_mix_main": {
+    "base": {
+      "No error": 138,
+      "Wrong or incomplete answer": 6,
+      "Answered an unanswerable question": 6
+    },
+    "adapter": {
+      "Answered an unanswerable question": 28,
+      "No error": 113,
+      "Wrong or incomplete answer": 8,
+      "Correct answer with an unsupported extra claim": 1
+    }
+  },
+  "citation_present_main_answerable": {
+    "base": 4,
+    "adapter": 13
+  },
+  "per_judge_strict_pass_main_answerable": {
+    "base": {
+      "A": 114,
+      "B": 116
+    },
+    "adapter": {
+      "A": 112,
+      "B": 113
+    }
+  },
+  "per_judge_strict_pass_main_unanswerable": {
+    "base": {
+      "A": 25,
+      "B": 24
+    },
+    "adapter": {
+      "A": 2,
+      "B": 2
+    }
+  },
+  "pm_thresholds": {
+    "adapter_at_least_10pts_over_base": false,
+    "citation_correct_at_least_95pct_adapter": false,
+    "unsupported_below_2pct_adapter": false,
+    "correct_abstention_at_least_90pct_adapter": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "public-final-test-replay-v1",
+  "test_date": "2026-10-19",
+  "records": 600,
+  "paired_items": 150,
+  "output_runs": {
+    "main": 300,
+    "cut60": 300
+  },
+  "fields": [
+    "pair_id",
+    "passage",
+    "condition",
+    "answerable",
+    "expected",
+    "correct",
+    "supported",
+    "unsupported_claim",
+    "abstained",
+    "pass",
+    "A_pass",
+    "B_pass",
+    "run",
+    "family",
+    "question_type",
+    "cut_stratum",
+    "finish",
+    "status",
+    "seconds",
+    "tokens",
+    "citation_code",
+    "judges_differ",
+    "author_choice"
+  ],
+  "files": {
+    "final_ratings_public.jsonl": {
+      "sha256": "4e0441512d2130dc67dab17fa8a6b7769079c5f79e0ba943ef6f3a9b797e2ca2",
+      "bytes": 282843
+    },
+    "final_results_public.json": {
+      "sha256": "d44ad2939c02e00a3fcb1f2f94b64387e1f2d2eb2be8d4d248b439b034202eb2",
+      "bytes": 8125
+    },
+    "PUBLIC_DATA_DICTIONARY.md": {
+      "sha256": "e3845b7540d1fce5d37216052301ac524e73ca87d0db1df41325cec25dfc69e2",
+      "bytes": 868
+    }
+  },
+  "privacy": {
+    "name_removed": true,
+    "question_and_key_text_removed": true,
+    "source_passages_and_locators_removed": true,
+    "raw_model_and_judge_text_removed": true,
+    "private_review_sheet_and_signoff_identifiers_removed": true
+  }
+}
