@@ -4,6 +4,7 @@ This evidence comes from saved-chat demonstrations on Open WebUI v0.12.5 on Octo
 
 **Version qualification:** these saved-chat demonstrations preceded the separate change from adapter drafting to the untouched Nemotron base. They demonstrate the confidence-routing logic, but are not end-to-end live runs of the current base-draft configuration. No comparative accuracy benchmark for that current configuration is claimed.
 
+- [Main Open WebUI screen in dark mode with expanded sidebar](main-openwebui-dark-sidebar.png)
 - [High-confidence route screenshot](high-confidence-route.png)
 - [Low-confidence answer and confidence score](low-confidence-review.png)
 - [Review actions](review-actions.png)

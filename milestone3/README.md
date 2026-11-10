@@ -14,7 +14,7 @@ This J.O.-only package is the public companion to the Milestone 3 submission. It
 - Exported Pipe: `workflow/alphin_policy_workflow.py`
 - Exported Review Action: `workflow/alphin_review_actions.py`
 - Public wrapper model configuration: `workflow/alphin-policy-workflow.json` (the public suggestion describes an identifier-check demo without embedding a test identifier); [pinned base-model reference](workflow/model-reference.md)
-- [Current confidence-routing evidence note](evidence/confidence-routing-summary.md), three screenshots, and [path diagrams](workflow/path_examples.png)
+- [Current confidence-routing evidence note](evidence/confidence-routing-summary.md), the dark-mode main-screen screenshot, three confidence/review screenshots, and [path diagrams](workflow/path_examples.png)
 - [Exploratory confidence-threshold summary](evaluation/confidence-threshold-summary.json)
 - [Historical adapter-draft comparison method](evaluation/historical-adapter-workflow-method.md) and aggregate-only results in `evaluation/historical-adapter-workflow-summary.json`
 - [Walkthrough MP4 placeholder](../videos/INAI6986_Milestone3_Walkthrough.md)
