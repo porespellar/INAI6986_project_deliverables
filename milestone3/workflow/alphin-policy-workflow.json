@@ -1,0 +1,89 @@
+{
+  "id": "alphin-policy-workflow",
+  "base_model_id": "alphin_policy_workflow",
+  "name": "ALPHIN - Policy Workflow (Pipe + Review Actions)",
+  "params": {},
+  "meta": {
+    "capabilities": {
+      "terminal": false,
+      "builtin_tools": false
+    },
+    "description": "Visible 8-step policy workflow: intake and PHI screen, search both knowledge bases, evidence gate, base-model-drafted cited answer, confidence score (verifier model probability plus citation and number checks), confidence threshold (80% by default), human review of low-confidence answers only (Approve / Needs correction / Escalate buttons), review log. Type /log to see the log.",
+    "actionIds": [
+      "alphin_review_actions"
+    ],
+    "suggestion_prompts": [
+      {
+        "title": [
+          "Timely filing",
+          "hearing services claim"
+        ],
+        "content": "How many days after the date of service does an audiologist have to submit a hearing services claim?"
+      },
+      {
+        "title": [
+          "DME warranty",
+          "minimum period"
+        ],
+        "content": "What is the warranty period for durable medical equipment purchased by Medicaid?"
+      },
+      {
+        "title": [
+          "Not in the documents",
+          "gate demo"
+        ],
+        "content": "What is the exact dollar reimbursement rate for CPT code 92557 for audiologists?"
+      },
+      {
+        "title": [
+          "High confidence",
+          "DME long-term use"
+        ],
+        "content": "For Medicaid coverage of a DME purchase, what duration of use is considered long term?"
+      },
+      {
+        "title": [
+          "High confidence",
+          "Hearing aid exam age"
+        ],
+        "content": "For children under what age is examination by an otologist or otolaryngologist required before a hearing aid is fitted?"
+      },
+      {
+        "title": [
+          "Low confidence",
+          "DME copayment"
+        ],
+        "content": "What copayment does a recipient pay for durable medical equipment?"
+      },
+      {
+        "title": [
+          "No review needed",
+          "identifier-check demo"
+        ],
+        "content": "This input-validation demo uses a synthetic test identifier. What is the timely filing limit for hearing services claims?"
+      },
+      {
+        "title": [
+          "No review needed",
+          "question too short"
+        ],
+        "content": "Help me"
+      },
+      {
+        "title": [
+          "Show the log",
+          "/log"
+        ],
+        "content": "/log"
+      }
+    ]
+  },
+  "is_active": true,
+  "access_grants": [
+    {
+      "principal_type": "user",
+      "principal_id": "*",
+      "permission": "read"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "configuration": "Historical ALPHIN Pipe with adapter draft (October 29, 2026; not current base-draft design)",
+  "items": 49,
+  "answerable": 40,
+  "unanswerable": 9,
+  "judge": "one blinded Claude Sonnet 5.5 judge; no human scoring",
+  "metrics": {
+    "answerable_correct": "33/40",
+    "strict_pass": "26/40",
+    "unanswerable_declined": "3/9",
+    "unsupported_claim_outputs": "16/49",
+    "correct_in_text_citations": "34/37 answered",
+    "median_seconds": 8.4
+  },
+  "comparison_legacy_adapter": {
+    "answerable_correct": "30/40",
+    "strict_pass": "28/40",
+    "unanswerable_declined": "2/9",
+    "unsupported_claim_outputs": "19/49",
+    "correct_in_text_citations": "6/40",
+    "median_seconds": 30.5
+  },
+  "limitations": [
+    "The 49 questions were reused after Milestone 2 and are not held out.",
+    "These results describe the earlier adapter-draft workflow, not the current untouched-base draft configuration.",
+    "No current-version comparative accuracy result is claimed."
+  ]
+}
