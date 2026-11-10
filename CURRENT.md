@@ -1,10 +1,10 @@
 # Current Project State — J.O.
 
-Updated November 10, 2026. Resume with the [public Milestone 3 package](milestone3/README.md) or historical [October 20 handoff](docs/handoff/HANDOFF_20261020.md).
+Updated November 10, 2026. Resume with the [public Milestone 3 package](milestone3/README.md) and [current handoff](docs/handoff/HANDOFF_20261110.md); [October 20 handoff](docs/handoff/HANDOFF_20261020.md) is historical.
 
 ## Milestone 3 In Progress
 
-The public grading package is in [`milestone3/`](milestone3/README.md): the J.O.-only report, rubric map, workflow source/documentation, diagrams, the dark-mode main AUtoMLy screen with expanded sidebar, confidence-routing evidence, and aggregate results. A pending MP4 link placeholder is at [`videos/INAI6986_Milestone3_Walkthrough.md`](videos/INAI6986_Milestone3_Walkthrough.md). The walkthrough and a current base-draft live capture remain pending. Do not represent October 29 adapter-draft confidence screenshots or November 10 superseded captures as current base-draft evidence.
+The public grading package is in [`milestone3/`](milestone3/README.md): the J.O.-only report, rubric map, workflow source/documentation, diagrams, a preliminary main-screen screenshot, confidence-routing evidence, and aggregate results. **The current page-one screenshot is incomplete and must be replaced before submission**; see the [November 10 handoff](docs/handoff/HANDOFF_20261110.md). The walkthrough MP4 placeholder is at [`videos/INAI6986_Milestone3_Walkthrough.md`](videos/INAI6986_Milestone3_Walkthrough.md).
 
 The next phase is a conversational decision-support prototype using stock Open WebUI, Docling, Ollama and Nomic embeddings. The instructor-approved adaptation uses conversational retrieval and human citation review rather than requiring a separate workflow engine. Implementation and complete deployment configuration remain in the private source-of-record repository. This public repository provides the report and most evidence needed for grading review, not a standalone installation.
 
