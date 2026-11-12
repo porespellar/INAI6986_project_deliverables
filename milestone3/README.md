@@ -8,7 +8,11 @@ This J.O.-only package is the public companion to the Milestone 3 submission. It
 
 - [Milestone 3 PDF](../docs/J_O_INAI6986_Milestone3_20261110.pdf)
 - [Editable Milestone 3 DOCX](../docs/J_O_INAI6986_Milestone3_20261110.docx)
+- [Assignment 2C Progress Log 3 PDF](../docs/J_O_INAI6986_Log3_20261110.pdf)
+- [Editable Progress Log 3 DOCX](../docs/J_O_INAI6986_Log3_20261110.docx)
 - [Rubric map](MILESTONE3_RUBRIC_MAP.md)
+
+> The Progress Log follows the one-page Assignment 2C template and is updated through Nov 10. Its yellow-highlighted hours field still needs the student's estimate before Canvas submission.
 
 ## Workflow evidence
 
@@ -19,7 +23,8 @@ This J.O.-only package is the public companion to the Milestone 3 submission. It
 - [Current confidence-routing evidence note](evidence/confidence-routing-summary.md), the preliminary/incomplete main-screen screenshot, three confidence/review screenshots, and [path diagrams](workflow/path_examples.png)
 - [Exploratory confidence-threshold summary](evaluation/confidence-threshold-summary.json)
 - [Historical adapter-draft comparison method](evaluation/historical-adapter-workflow-method.md) and aggregate-only results in `evaluation/historical-adapter-workflow-summary.json`
-- [Official J.O.-only walkthrough MP4](../videos/INAI6986_Milestone3_Walkthrough.md) and [public GitHub release with captions](https://github.com/porespellar/INAI6986_project_deliverables/releases/tag/m3-walkthrough-v4)
+- [Official presentation video on AUM YuJa](https://aum.video.yuja.com/V/Video?v=17743008&node=77494270&a=119925289)
+- [Alternate: J.O.-only walkthrough MP4](../videos/INAI6986_Milestone3_Walkthrough.md) and [public GitHub release with captions](https://github.com/porespellar/INAI6986_project_deliverables/releases/tag/m3-walkthrough-v4)
 
 ## What this public repository does and does not provide
 
