@@ -2,6 +2,10 @@
 
 Updated November 12, 2026. Resume with the [public Milestone 3 package](milestone3/README.md) and [current handoff](docs/handoff/HANDOFF_20261110.md); [October 20 handoff](docs/handoff/HANDOFF_20261020.md) is historical.
 
+## November 12 Weekly Progress Deck
+
+A 10-slide J.O.-only progress briefing for Nov 5–12 is in [`presentations/2026-11-12/`](presentations/2026-11-12/) (PPTX and PDF). It summarizes the published walkthrough video, the final Milestone 3 report and Progress Log 3, and the drafted Implementation & Governance Plan (due Nov 22). The plan itself and its builder remain in the private source-of-record repository until submission.
+
 ## Milestone 3 In Progress
 
 The public grading package is in [`milestone3/`](milestone3/README.md): J.O.-only Milestone 3 report and Assignment 2C Progress Log 3, rubric map, workflow source/documentation, diagrams, the updated dark-mode main-screen screenshot, confidence-routing evidence, aggregate results and official walkthrough links. The one-page Progress Log covers Weeks 9–12 and includes documented work through Nov 12; its hours field records the student-reported 6 hours this week (Nov 9–15, post-period) and 4 hours last week (Nov 2–8, Week 12; 10 hours across those two weeks); hours for Weeks 9–11 were not provided, so the full-period total is unknown. The [official AUM YuJa presentation](https://aum.video.yuja.com/V/Video?v=17743008&node=77494270&a=119925289) is primary, but anonymous access is unverified; use the alternate [J.O.-only walkthrough MP4](https://github.com/porespellar/INAI6986_project_deliverables/releases/download/m3-walkthrough-v4/INAI6986_M3_Walkthrough_JO_Fall2026.mp4) if AUM sign-in is required. The public release includes captions.
