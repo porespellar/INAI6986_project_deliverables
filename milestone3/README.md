@@ -2,7 +2,7 @@
 
 This J.O.-only package is the public companion to the Milestone 3 submission. It contains the report, rubric map, current workflow export/documentation, diagrams, confidence-routing screenshots, and aggregate evaluation summaries. The repository root also contains the identity-protected public Milestone 1/2 deliverables, public-source artifacts, and existing de-identified replay notebooks.
 
-> **Submission note:** Figure 1 on page 1 is a preliminary main-screen capture. It does not show the approved orange sidebar, suggested prompts, or the intended background transparency. Replace it before submitting; see the [current handoff](../docs/handoff/HANDOFF_20261110.md).
+> Figure 1 on page 1 is a fresh dark-mode Open WebUI home-screen capture with the AUM-orange sidebar, current suggested prompts, and branded background under the 0.40 dark veil. It demonstrates the interface appearance, not an answer run.
 
 ## Submission documents
 
