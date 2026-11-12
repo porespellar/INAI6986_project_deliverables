@@ -4,13 +4,13 @@ Updated November 10, 2026. Resume with the [public Milestone 3 package](mileston
 
 ## Milestone 3 In Progress
 
-The public grading package is in [`milestone3/`](milestone3/README.md): the J.O.-only report, rubric map, workflow source/documentation, diagrams, a preliminary main-screen screenshot, confidence-routing evidence, and aggregate results. **The current page-one screenshot is incomplete and must be replaced before submission**; see the [November 10 handoff](docs/handoff/HANDOFF_20261110.md). The walkthrough MP4 placeholder is at [`videos/INAI6986_Milestone3_Walkthrough.md`](videos/INAI6986_Milestone3_Walkthrough.md).
+The public grading package is in [`milestone3/`](milestone3/README.md): the J.O.-only report, rubric map, workflow source/documentation, diagrams, a preliminary main-screen screenshot, confidence-routing evidence, and aggregate results. **The current page-one screenshot is incomplete and must be replaced before submission**; see the [November 10 handoff](docs/handoff/HANDOFF_20261110.md). The official [J.O.-only walkthrough MP4](https://github.com/porespellar/INAI6986_project_deliverables/releases/download/m3-walkthrough-v4/INAI6986_M3_Walkthrough_JO_Fall2026.mp4) and [captioned public release](https://github.com/porespellar/INAI6986_project_deliverables/releases/tag/m3-walkthrough-v4) are available.
 
 The next phase is a conversational decision-support prototype using stock Open WebUI, Docling, Ollama and Nomic embeddings. The instructor-approved adaptation uses conversational retrieval and human citation review rather than requiring a separate workflow engine. Implementation and complete deployment configuration remain in the private source-of-record repository. This public repository provides the report and most evidence needed for grading review, not a standalone installation.
 
 The refreshed source snapshot is available at `data/source/2026-10-20/`: 138 PDFs with inventory and checksum manifest. Use its updated Administrative Code chapters 13 and 19 for the new knowledge bases and disclose the difference from the September 14 Milestone 2 corpus. Preserve prior snapshots.
 
-The private deployment includes a working Open WebUI/Chroma retrieval workflow and a confidence-routing Pipe. The current untouched-base drafting configuration still needs a fresh end-to-end capture and comparative accuracy validation; fresh browser demonstrations of bad-input and service-failure handling and the final walkthrough remain pending. No production or agency-use claim is made.
+The private deployment includes a working Open WebUI/Chroma retrieval workflow and a confidence-routing Pipe. The current base-draft walkthrough is published and demonstrates live workflow paths; comparative accuracy of the current design remains unmeasured. The incomplete page-one branded home-screen screenshot still requires replacement. No production or agency-use claim is made.
 
 ## Milestone 2 Closed
 

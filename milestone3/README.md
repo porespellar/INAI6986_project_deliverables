@@ -19,7 +19,7 @@ This J.O.-only package is the public companion to the Milestone 3 submission. It
 - [Current confidence-routing evidence note](evidence/confidence-routing-summary.md), the preliminary/incomplete main-screen screenshot, three confidence/review screenshots, and [path diagrams](workflow/path_examples.png)
 - [Exploratory confidence-threshold summary](evaluation/confidence-threshold-summary.json)
 - [Historical adapter-draft comparison method](evaluation/historical-adapter-workflow-method.md) and aggregate-only results in `evaluation/historical-adapter-workflow-summary.json`
-- [Walkthrough MP4 placeholder](../videos/INAI6986_Milestone3_Walkthrough.md)
+- [Official J.O.-only walkthrough MP4](../videos/INAI6986_Milestone3_Walkthrough.md) and [public GitHub release with captions](https://github.com/porespellar/INAI6986_project_deliverables/releases/tag/m3-walkthrough-v4)
 
 ## What this public repository does and does not provide
 

@@ -36,4 +36,4 @@ The instructor approved Open WebUI instead of n8n/Make and allowed the rubric to
 
 ## Submission format
 
-The course rubric asks for one Milestone 3 PDF, 4–6 narrative pages plus evidence appendix, repository access and a 5–8-minute walkthrough recording, including AI Use Disclosure. The public package includes the report and a pending MP4 placeholder; the final recording will replace or resolve it after review.
+The course rubric asks for one Milestone 3 PDF, 4–6 narrative pages plus evidence appendix, repository access and a 5–8-minute walkthrough recording, including AI Use Disclosure. The public package links to the official J.O.-only MP4 in the `m3-walkthrough-v4` GitHub release; matching SRT and VTT captions are included there.
