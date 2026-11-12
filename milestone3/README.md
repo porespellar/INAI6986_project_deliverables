@@ -12,7 +12,7 @@ This J.O.-only package is the public companion to the Milestone 3 submission. It
 - [Editable Progress Log 3 DOCX](../docs/J_O_INAI6986_Log3_20261110.docx)
 - [Rubric map](MILESTONE3_RUBRIC_MAP.md)
 
-> The Progress Log follows the one-page Assignment 2C template and includes documented work through Nov 12, four days after its Nov 8 deadline. Its hours field records the student-reported 6 hours this week and 4 hours last week.
+> The Progress Log follows the one-page Assignment 2C template and includes documented work through Nov 12. Its hours field records 6 hours this week and 4 hours last week (10 across those two weeks); hours for Weeks 9–11 were not supplied, so the full-period total is unknown.
 
 ## Workflow evidence
 
