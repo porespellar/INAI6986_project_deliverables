@@ -4,6 +4,13 @@ This repository contains identity-protected public copies of INAI 6986 course de
 
 The author is identified as **J.O.** only. No full personal name, private credentials, API keys, or local account paths are intentionally published. The candidate-data copy replaces local generation endpoint identifiers with redacted values. Historical September 14 source PDFs are downloaded from official URLs when reproducing the archived notebook and are not committed. A refreshed October 20 snapshot of 138 publicly issued Administrative Code and Provider Manual PDFs is included for the Milestone 3 source corpus; it may contain official agency contact information, not private individual contact details.
 
+## Final Report (Assignment 7a) — November 19 Draft
+
+- `docs/J_O_INAI6986_FinalReport_20261119.pdf` and `.docx` (19 pages: cover, contents, 14 body pages, Appendices A–E). The full
+  capstone in one line of reasoning: decision → data → model → evidence → system → business case → recommendation (deploy with
+  conditions). Its Appendix D maps the report to this repository: the annotated final-test notebook
+  (`notebook/final_test_replay_20261019.ipynb`) and the exported automation workflow (`milestone3/workflow/`).
+
 ## Current October 19 Final-Test Package
 
 - **Milestone 2:** `docs/J_O_INAI6986_Milestone2_20261019_rev5.docx` and `.pdf` (7-page full-name course copy; the public J.O. PDF is 6 pages). Reports the one-time October 19 test of 150 fresh questions (120 answerable, 30 unanswerable), comparing the untouched base and adapter with the same source passage. On answerable strict pass, base scored 114/120 (95.0%) and adapter 111/120 (92.5%). The adapter failed all four measured PM Plan thresholds and was not promoted. Full-name course copies are not in this public repository.
