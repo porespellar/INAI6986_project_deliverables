@@ -1,5 +1,12 @@
 # Current Project State — J.O.
 
+## November 22, 2026 — Assignment 7A v2 Resubmission 1
+
+Current report: [PDF](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf) · [DOCX](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.docx). See the [revision package and financial replay](final_report_v2_Resubmission_1/README.md). 22 pages, including 16 body pages.
+
+The report corrects pass-versus-decline terminology, describes actual shipped behavior and qualifies model-only evidence, CPMAI status, review safeguards and conditional economics. No code, earlier assignment, notebook or recorded rating changed. No new system test or human score was performed. Full-workflow accuracy remains unknown; the candidate and conditional plan are retained, with operational release and procurement on hold. Private benchmark contents remain unpublished. Older status below is historical.
+
+
 Updated November 12, 2026. Resume with the [public Milestone 3 package](milestone3/README.md) and [current handoff](docs/handoff/HANDOFF_20261110.md); [October 20 handoff](docs/handoff/HANDOFF_20261020.md) is historical.
 
 ## November 12 Weekly Progress Deck

@@ -1,0 +1,55 @@
+{
+  "volume": 399000,
+  "rate_staff": 66.41,
+  "manual_sec": 84,
+  "review_sec": 30,
+  "original_unrounded_cost": 480372.99401333334,
+  "original_displayed_cost": 480374,
+  "original_displayed_savings": 568814,
+  "original_displayed_net": 88440,
+  "scenarios": [
+    {
+      "name": "Original proxy; no incremental escalation priced",
+      "usable_proxy": 0.92,
+      "escalation_share": 0,
+      "incremental_minutes": 0
+    },
+    {
+      "name": "Sampling lower bound only; no escalation priced",
+      "usable_proxy": 0.8653774250568131,
+      "escalation_share": 0,
+      "incremental_minutes": 0
+    },
+    {
+      "name": "Correct declines save no lookup time",
+      "usable_proxy": 0.76,
+      "escalation_share": 0,
+      "incremental_minutes": 0
+    },
+    {
+      "name": "1% escalated; 2 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.01,
+      "incremental_minutes": 2
+    },
+    {
+      "name": "5% escalated; 5 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.05,
+      "incremental_minutes": 5
+    },
+    {
+      "name": "20% escalated; 5 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.2,
+      "incremental_minutes": 5
+    },
+    {
+      "name": "80% workflow proxy; 5% escalated for 5 minutes",
+      "usable_proxy": 0.8,
+      "escalation_share": 0.05,
+      "incremental_minutes": 5
+    }
+  ],
+  "basis": "Existing 7A/Assignment 6 cost assumptions; new escalation settings are hypothetical, not measured. Earlier artifacts unchanged."
+}

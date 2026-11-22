@@ -1,0 +1,95 @@
+{
+  "scope": "Document-only scenario arithmetic; no new evaluation or design change",
+  "volume": 399000,
+  "rate_staff": 66.41,
+  "manual_sec": 84,
+  "review_sec": 30,
+  "unanswerable_test_share": 0.2,
+  "original_unrounded_cost": 480372.99401333334,
+  "original_unrounded_savings": 568814.932,
+  "original_displayed_cost": 480374,
+  "original_displayed_savings": 568814,
+  "original_displayed_net": 88440,
+  "scenarios": [
+    {
+      "name": "Original proxy; no incremental escalation priced",
+      "usable_proxy": 0.92,
+      "escalation_share": 0,
+      "incremental_minutes": 0,
+      "escalation": 0.0,
+      "cost": 480372.99401333334,
+      "savings": 568814.932,
+      "net": 88441.93798666669,
+      "roi": 0.18411097020206735
+    },
+    {
+      "name": "Sampling lower bound only; no escalation priced",
+      "usable_proxy": 0.8653774250568131,
+      "escalation_share": 0,
+      "incremental_minutes": 0,
+      "escalation": 0.0,
+      "cost": 480372.99401333334,
+      "savings": 535043.0447695937,
+      "net": 54670.0507562604,
+      "roi": 0.11380750258151058
+    },
+    {
+      "name": "Correct declines save no lookup time",
+      "usable_proxy": 0.76,
+      "escalation_share": 0,
+      "incremental_minutes": 0,
+      "escalation": 0.0,
+      "cost": 480372.99401333334,
+      "savings": 469890.59599999996,
+      "net": -10482.398013333383,
+      "roi": -0.021821372441770594
+    },
+    {
+      "name": "1% escalated; 2 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.01,
+      "incremental_minutes": 2,
+      "escalation": 8832.529999999999,
+      "cost": 489205.5240133334,
+      "savings": 568814.932,
+      "net": 79609.40798666666,
+      "roi": 0.16273202995250088
+    },
+    {
+      "name": "5% escalated; 5 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.05,
+      "incremental_minutes": 5,
+      "escalation": 110406.625,
+      "cost": 590779.6190133333,
+      "savings": 568814.932,
+      "net": -21964.687013333314,
+      "roi": -0.03717915497832634
+    },
+    {
+      "name": "20% escalated; 5 additional minutes each",
+      "usable_proxy": 0.92,
+      "escalation_share": 0.2,
+      "incremental_minutes": 5,
+      "escalation": 441626.5,
+      "cost": 921999.4940133333,
+      "savings": 568814.932,
+      "net": -353184.5620133333,
+      "roi": -0.3830637265059343
+    },
+    {
+      "name": "80% workflow proxy; 5% escalated for 5 minutes",
+      "usable_proxy": 0.8,
+      "escalation_share": 0.05,
+      "incremental_minutes": 5,
+      "escalation": 110406.625,
+      "cost": 590779.6190133333,
+      "savings": 494621.68,
+      "net": -96157.93901333335,
+      "roi": -0.16276448258984905
+    }
+  ],
+  "max_extra_seconds_per_question": 12.015846601596602,
+  "breakeven_usable_no_escalation": 0.7769542071238501,
+  "breakeven_usable_5pct_5min": 0.9555256356952786
+}
