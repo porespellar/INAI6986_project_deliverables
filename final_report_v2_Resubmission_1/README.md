@@ -1,10 +1,13 @@
 # Assignment 7A Final Report — v2 Resubmission 1
 
-Prepared November 22, 2026. This package adds a report-only revision; earlier assignments, model outputs, ratings, notebooks and system code remain unchanged.
+Prepared November 22, 2026; updated November 23 with Appendix F, Response to Instructor Feedback. This package adds a report-only revision; earlier assignments, model outputs, ratings, notebooks and system code remain unchanged.
 
 - Report: [`../docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf`](../docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf) and [editable DOCX](../docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.docx).
-- 22 PDF pages: cover, contents, 16 body pages, four appendix pages containing Appendices A–E.
+- 25 PDF pages: cover, contents, 16 body pages, seven appendix pages containing Appendices A–F.
+- Appendix F: printed pages 21–23 (PDF pages 23–25). Nine responses identify feedback, exact report locations, rationale and remaining evidence gaps; the closing request seeks reassessment of corrected claims, not credit for tests not performed.
 - Author identity: J.O. The full-name submission edition is intentionally outside Git.
+
+The November 23 update adds the feedback-response appendix, updates the cover date, contents and AI-use disclosure, and preserves the existing report body and Appendices A–D. Previous files remain in Git history. Both identity variants passed document/package and pagination checks; only J.O. copies are published.
 
 ## Corrections and limits
 

@@ -4,9 +4,9 @@ This repository contains identity-protected public copies of INAI 6986 course de
 
 The author is identified as **J.O.** only. No full personal name, private credentials, API keys, or local account paths are intentionally published. The candidate-data copy replaces local generation endpoint identifiers with redacted values. Historical September 14 source PDFs are downloaded from official URLs when reproducing the archived notebook and are not committed. A refreshed October 20 snapshot of 138 publicly issued Administrative Code and Provider Manual PDFs is included for the Milestone 3 source corpus; it may contain official agency contact information, not private individual contact details.
 
-## Final Report (Assignment 7A) — v2 Resubmission 1 (November 22)
+## Final Report (Assignment 7A) — v2 Resubmission 1 (updated November 23)
 
-- [PDF](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf) and [editable DOCX](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.docx): 22 pages, with 16 body pages.
+- [PDF](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf) and [editable DOCX](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.docx): 25 pages, with 16 body pages; Appendix F responds to instructor feedback on printed pages 21–23.
 - [Revision notes and verified offline financial replay](final_report_v2_Resubmission_1/README.md). Report-only corrections; no retest, redesign, earlier-deliverable edits or new human ratings. The missing end-to-end score and private semantic-audit gap remain explicit.
 - J.O.-only repository copies; full-name submission copies are outside Git. No Canvas submission is claimed.
 

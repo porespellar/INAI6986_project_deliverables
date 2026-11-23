@@ -1,5 +1,9 @@
 # Current Project State — J.O.
 
+## November 23, 2026 — Feedback-response appendix added
+
+The current `_v2_Resubmission_1` DOCX/PDF pair now includes **Appendix F · Response to Instructor Feedback**: nine numbered responses with section/table references, correction rationale and explicit unresolved evidence requirements, followed by a request for reassessment. Total: 25 PDF pages, still 16 body pages; Appendix F is printed pages 21–23 (PDF pages 23–25). Cover date, contents and AI disclosure are updated. Report body, Appendices A–D, earlier assignments, code, ratings and evidence inputs are unchanged. No new experimental or human validation was performed. The prior edition remains in Git history; no Canvas submission is claimed.
+
 ## November 22, 2026 — Assignment 7A v2 Resubmission 1
 
 Current report: [PDF](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.pdf) · [DOCX](docs/J_O_INAI6986_FinalReport_v2_Resubmission_1.docx). See the [revision package and financial replay](final_report_v2_Resubmission_1/README.md). 22 pages, including 16 body pages.
