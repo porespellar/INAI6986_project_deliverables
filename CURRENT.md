@@ -1,5 +1,9 @@
 # Current Project State — J.O.
 
+## November 23 follow-up — align model selection with film v4
+
+Section 3 now compares five local-model alternatives across four families, matching the current film’s model-selection scene: untouched Nemotron with search, Nemotron with a LoRA adapter, Gemma with adapter, Ornith with adapter, and Muse with adapter. The commercial-service row is removed from Table 5; the prose distinguishes early development probes from the sealed Nemotron base/adapter comparison. Section 7 retains the separate procurement comparison under the generic label “Cloud-hosted commercial AI agent,” with the existing cost allowance and score unchanged and cloud-cost/vendor-control limitations explicit. No new evaluation, earlier-assignment edit or design change occurred. Appendices A–F and all other report sections are unchanged; the report remains 25 pages with 16 body pages.
+
 ## November 23, 2026 — Feedback-response appendix added
 
 The current `_v2_Resubmission_1` DOCX/PDF pair now includes **Appendix F · Response to Instructor Feedback**: nine numbered responses with section/table references, correction rationale and explicit unresolved evidence requirements, followed by a request for reassessment. Total: 25 PDF pages, still 16 body pages; Appendix F is printed pages 21–23 (PDF pages 23–25). Cover date, contents and AI disclosure are updated. Report body, Appendices A–D, earlier assignments, code, ratings and evidence inputs are unchanged. No new experimental or human validation was performed. The prior edition remains in Git history; no Canvas submission is claimed.

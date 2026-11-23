@@ -7,7 +7,11 @@ Prepared November 22, 2026; updated November 23 with Appendix F, Response to Ins
 - Appendix F: printed pages 21–23 (PDF pages 23–25). Nine responses identify feedback, exact report locations, rationale and remaining evidence gaps; the closing request seeks reassessment of corrected claims, not credit for tests not performed.
 - Author identity: J.O. The full-name submission edition is intentionally outside Git.
 
-The November 23 update adds the feedback-response appendix, updates the cover date, contents and AI-use disclosure, and preserves the existing report body and Appendices A–D. Previous files remain in Git history. Both identity variants passed document/package and pagination checks; only J.O. copies are published.
+The earlier November 23 appendix-only update added the feedback response, updated the cover date, contents and AI-use disclosure, and preserved the report body. The later film-alignment edit changes Sections 3 and 7 only; all appendices remain unchanged. Previous files remain in Git history. Both identity variants passed document/package and pagination checks; only J.O. copies are published.
+
+## November 23 follow-up — align model selection with film v4
+
+Section 3 now compares five local-model alternatives across four families, matching the current film’s model-selection scene: untouched Nemotron with search, Nemotron with a LoRA adapter, Gemma with adapter, Ornith with adapter, and Muse with adapter. The commercial-service row is removed from Table 5; the prose distinguishes early development probes from the sealed Nemotron base/adapter comparison. Section 7 retains the separate procurement comparison under the generic label “Cloud-hosted commercial AI agent,” with the existing cost allowance and score unchanged and cloud-cost/vendor-control limitations explicit. No new evaluation, earlier-assignment edit or design change occurred. Appendices A–F and all other report sections are unchanged; the report remains 25 pages with 16 body pages.
 
 ## Corrections and limits
 
